@@ -58,6 +58,6 @@ In addition to viewing real-time logs, you can also query or filter historical l
 <ACImage src="/_images/1671602551461.png" mode="light" />
 <ACImage src="/_images/1671602530168.png" mode="dark" />
 
-::: tip Tips
+## Limits {#limits}
+
 In order to ensure the service is running stably, the log bandwidth and storing date will be limited, see: [Resource Limits - Online Log](/about/limits.html#online-log).
-:::

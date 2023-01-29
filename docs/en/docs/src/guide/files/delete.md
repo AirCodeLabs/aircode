@@ -26,7 +26,7 @@ The deletion is performed in the following steps:
 2. Immediately delete the database records and the content in the file storage, that is, the file information will no longer exist in the database and file storage if the execution is successful
 3. Send a synchronization request to the global CDN to delete the cached files in the node
 
-Deleting cached files from nodes in the global CDN is a time-consuming operation, so it may take a certain period of time to take effect after deleting files. For details, please refer to [Resource Limits - File Storage - CDN Refresh Effective Time](/about/limits.html#files-cdn-delay).
+Deleting cached files from nodes in the global CDN is a time-consuming operation, so it may take **5 minutes to 24 hours** to take effect after deleting files.
 
 ## Delete Files {#multiple}
 

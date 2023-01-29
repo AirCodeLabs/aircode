@@ -58,7 +58,7 @@ If you are new to AirCode, it is recommended to go through the following guides 
 <ListBox
   title="Resource Limits"
   link="/about/limits.html"
-  description="View the resource limit for different plans, and how to change them"
+  description="View the Resource Limits for different plans, and how to change them"
 />
 </ListBoxContainer>
 

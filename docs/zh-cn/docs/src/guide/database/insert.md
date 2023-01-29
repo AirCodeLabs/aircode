@@ -32,7 +32,7 @@ module.exports = async function(params, context) {
 }
 ```
 
-为了保证数据库的稳定性，对于单条插入记录的数据量大小会有限制，超过时会插入失败，请参考：[资源限制 - 数据库 - 插入限制](/about/limits.html#database-insert)。
+为了保证数据库的稳定性，对于单条插入记录的数据量大小会有限制，超过时会插入失败，请参考：[资源限制 - 数据库 - 写入限制](/about/limits.html#database-write)。
 
 ## 插入多条记录 {#insert-multiple}
 
@@ -57,7 +57,7 @@ module.exports = async function(params, context) {
 }
 ```
 
-为了保证数据库的稳定性，对于一次性插入的记录条数会有限制，超过时会插入失败，请参考：[资源限制 - 数据库 - 插入限制](/about/limits.html#database-insert)。
+为了保证数据库的稳定性，对于一次性插入的记录条数会有限制，超过时会插入失败，请参考：[资源限制 - 数据库 - 写入限制](/about/limits.html#database-write)。
 
 ## 系统默认字段 {#default-fields}
 
@@ -78,6 +78,10 @@ module.exports = async function(params, context) {
   updatedAt: Date('2022-10-15T09:35:32.639Z')
 }
 ```
+
+::: warning 注意
+如果传入的记录中包含系统默认字段，则这些字段的值会被系统生成值覆盖，即传入的值不会生效。
+:::
 
 ## 数据字段的类型 {#schema-of-fields}
 

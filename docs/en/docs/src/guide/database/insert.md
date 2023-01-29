@@ -32,7 +32,7 @@ module.exports = async function(params, context) {
 }
 ```
 
-In order to ensure the database's stable running, there is a limit on the size of a single inserted record. If it times out, the insertion will fail. See: [Resource Limits - Database - Insert Limits](/about/limits.html#database-insert).
+In order to ensure the database's stable running, there is a limit on the size of a single inserted record. If it times out, the insertion will fail. See: [Resource Limits - Database - Write Limits](/about/limits.html#database-write).
 
 ## Insert Records {#insert-multiple}
 
@@ -57,7 +57,7 @@ module.exports = async function(params, context) {
 }
 ```
 
-In order to ensure the database's stable running, there is a limit on the size of a batch inserted records. If it times out, the insertion will fail. See: [Resource Limits - Database - Insert Limits](/about/limits.html#database-insert).
+In order to ensure the database's stable running, there is a limit on the size of a batch inserted records. If it times out, the insertion will fail. See: [Resource Limits - Database - Write Limits](/about/limits.html#database-write).
 
 ## Default Fields {#default-fields}
 
@@ -78,6 +78,10 @@ For example, for the record inserted above, the full data is:
   updatedAt: Date('2022-10-15T09:35:32.639Z')
 }
 ```
+
+::: warning Note
+If the passed record contains system default fields, the values of these fields will be overwritten by the system-generated, that is, the input values will not take effect.
+:::
 
 ## Schema of Fields {#schema-of-fields}
 

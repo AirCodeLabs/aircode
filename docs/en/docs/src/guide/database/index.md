@@ -56,6 +56,6 @@ If you have never used a database before, or are unfamiliar with the way of usin
 - [Geo-based query](/guide/database/geo.html)
 - [Using Indexes](/guide/database/indexes.html)
 
-## Limit {#limits}
+## Limits {#limits}
 
-- [Resource Limit - Database](/about/limits.html#database)
+- [Resource Limits - Database](/about/limits.html#database)

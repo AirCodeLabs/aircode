@@ -45,6 +45,8 @@ module.exports = async function(params, context) {
 环境变量的值类型均为 `string` 类型，若有其他需求可自行在代码中进行转换。
 :::
 
+为了保证系统的稳定性，环境变量的数量和大小都包含相关限制，请参考[资源限制 - 云函数 - 环境变量](/about/limits.html#functions-environments)。
+
 ## 让环境变量在线上生效 {#deploy}
 
 为了保证线上的稳定运行，所有对环境变量的修改都只会在本地环境生效，若希望在线上生效，部署任意函数即可。

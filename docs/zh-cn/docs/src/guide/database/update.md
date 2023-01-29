@@ -46,7 +46,7 @@ module.exports = async function(params, context) {
 }
 ```
 
-为了保证数据库的稳定性，对于单条记录的数据量大小会有限制，当超过时会更新失败。因此查询时建议使用 `projection` 来指定仅包含要更新的字段，以减少数据量。具体的数据量大小限制请参考：[资源限制 - 数据库 - 更新限制](/about/limits.html#database-update)。
+为了保证数据库的稳定性，对于单条记录的数据量大小会有限制，当超过时会更新失败。因此查询时建议使用 `projection` 来指定仅包含要更新的字段，以减少数据量。具体的数据量大小限制请参考：[资源限制 - 数据库 - 写入限制](/about/limits.html#database-write)。
 
 ## 更新多条记录 {#update-multiple}
 
@@ -78,11 +78,11 @@ module.exports = async function(params, context) {
 }
 ```
 
-为了保证数据库的稳定性，对于单次更新的记录条数会有限制，超过时会更新失败，请参考：[资源限制 - 数据库 - 更新限制](/about/limits.html#database-update)。
+为了保证数据库的稳定性，对于单次更新的记录条数会有限制，超过时会更新失败，请参考：[资源限制 - 数据库 - 写入限制](/about/limits.html#database-write)。
 
 ## save 方法的原理 {#the-principle-of-save}
 
-`save` 方法即可以用来[插入数据](/guide/database/insert.html)也可以用来[更新数据](#update-data)，其最大区别是传入的记录是否包含数据库中存在的 `_id` 字段。
+`save` 方法即可以用来[插入数据](/guide/database/insert.html)也可以用来[更新数据](#update-one)，其最大区别是传入的记录是否包含数据库中存在的 `_id` 字段。
 
 - 若传入的记录包含 `_id` 字段且数据库中有该条记录，则会执行更新操作
 - 否则，会执行插入操作，并自动生成全局唯一的 `_id` 字段

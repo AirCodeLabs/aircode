@@ -51,7 +51,7 @@ module.exports = async function(params, context) {
 
 在执行删除操作时，本质上是根据传入记录的 `_id` 从数据表中寻找并删除。示例中通过 `projection` 让查询的结果中只包含 `_id` 字段，从而减少了数据量。
 
-为了保证数据库的稳定性，对于单次删除的记录条数会有限制，超过时会更新失败，请参考：[资源限制 - 数据库 - 删除限制](/about/limits.html#database-delete)。
+为了保证数据库的稳定性，对于单次删除的记录条数会有限制，超过时会删除失败，请参考：[资源限制 - 数据库 - 删除限制](/about/limits.html#database-delete)。
 
 ## 直接执行删除 {#delete-directly}
 

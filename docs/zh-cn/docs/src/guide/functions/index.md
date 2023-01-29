@@ -67,3 +67,4 @@
 ## 相关限制 {#limits}
 
 - [资源限制 - 云函数](/about/limits.html#functions)
+- [资源限制 - 线上日志](/about/limits.html#logs)

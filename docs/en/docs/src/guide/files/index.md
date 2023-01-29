@@ -42,6 +42,6 @@ If you have never used AirCode's file storage (i.e. `aircode.files`), it is reco
 />
 </ListBoxContainer>
 
-## Limit
+## Limits
 
 - [Resource Limits - File Storage](/about/limits.html#files)

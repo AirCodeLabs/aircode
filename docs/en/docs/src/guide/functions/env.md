@@ -45,6 +45,8 @@ Click **Debug** to see the return result:
 The value types of environment variables are all `string`, if you have other needs, you can convert them in the code.
 :::
 
+The number and size of environment variables contain relevant restrictions to ensure the system's stability. Please refer to [Resource Limits - Cloud Function - Environment Variables](/about/limits.html#functions-environments).
+
 ## Deploy Environment Variables {#deploy}
 
 In order to ensure stable online running, all modifications to environment variables will only take effect in the local environment. If you want them to take effect online, you can deploy the function.

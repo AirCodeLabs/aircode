@@ -46,7 +46,7 @@ module.exports = async function(params, context) {
 }
 ```
 
-In order to ensure the stability, there is a limit on the data size of a single record, and the update will fail when it exceeds the limit. Therefore, it is recommended to use `projection` to specify only the fields to be updated when querying to reduce the size. For specific data size limits, please refer to: [Resource Limits - Database - Update Limits](/about/limits.html#database-update).
+In order to ensure the stability, there is a limit on the data size of a single record, and the update will fail when it exceeds the limit. Therefore, it is recommended to use `projection` to specify only the fields to be updated when querying to reduce the size. For specific data size limits, please refer to: [Resource Limits - Database - Write Limits](/about/limits.html#database-write).
 
 ## Update Records {#update-multiple}
 
@@ -78,11 +78,11 @@ module.exports = async function(params, context) {
 }
 ```
 
-In order to ensure the stability, there is a limit on the number of records for a single update. The update will fail if it exceeds the limit. See: [Resource Limits - Database - Update Limits](/about/limits.html#database-update).
+In order to ensure the stability, there is a limit on the number of records for a single update. The update will fail if it exceeds the limit. See: [Resource Limits - Database - Write Limits](/about/limits.html#database-write).
 
 ## Principle of Save {#the-principle-of-save}
 
-`save` method can be used to [insert](/guide/database/insert.html) data or [update](#update-data) data, the biggest difference is whether the record contains `_id` field.
+`save` method can be used to [insert](/guide/database/insert.html) data or [update](#update-one) data, the biggest difference is whether the record contains `_id` field.
 
 - If the record contains the `_id` field, and the record exists in the database, the update operation will be performed
 - Otherwise, an insert is performed and a globally unique `_id` is automatically generated

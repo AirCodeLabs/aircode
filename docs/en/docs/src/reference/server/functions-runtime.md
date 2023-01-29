@@ -75,14 +75,14 @@ System environment variables do not support modification. If you want to set cus
 
 AirCode's function runtime will automatically scale up and down according to the request traffic without any configuration by the developer.
 
-When processing function requests, existing available instances will be used first. If the current instance is fully loaded, a new instance will be created automatically to handle the request. When the request volume decreases, idle instances will be automatically recycled. For restrictions on the total number of instances and concurrency, please refer to [Resource Limits - Cloud Functions - Instance Scaling](/about/limits.html#instance-scaling).
+When processing function requests, existing available instances will be used first. If the current instance is fully loaded, a new instance will be created automatically to handle the request. When the request volume decreases, idle instances will be automatically recycled. For restrictions of instance scaling, please refer to [Resource Limits - Cloud Function - Instance Scaling](/about/limits.html#functions-instance-scaling).
 
 ## Cold Start {#cold-start}
 
-In order to improve efficiency and provide better services to developers, applications that have not been invoked for a period of time will be placed in an "idle" state. When an application in the "idle" state is requested for the first time, a cold start will be triggered, which will cause the waiting time of the call to be longer, but **subsequent calls will return to normal**.
+In order to improve efficiency and provide better services to developers, applications that have not been invoked for a period of time will be placed in an idle state. When an application in the idle state is requested for the first time, a cold start will be triggered, which will cause the waiting time of the call to be longer, but **subsequent calls will return to normal**.
 
 ::: tip Tips
-The "idle" state is in the **application level**, that is, any function in the same application can be called to avoid entering the "idle" state.
+The idle state is in the **application level**, that is, any function in the same application can be called to avoid entering the idle state.
 :::
 
-Please see [Resource Limits - Cloud Functions - Cold Start](/about/limits.html#cold-start) for restrictions on the time to enter the "idle" state as well as the cold start time.
+Please see [Resource Limits - Cloud Function - Cold Start](/about/limits.html#functions-cold-start) for restrictions on the time to enter the idle state as well as the cold start time.

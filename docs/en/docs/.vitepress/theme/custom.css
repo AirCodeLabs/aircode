@@ -18,6 +18,11 @@
   color: var(--vp-c-text-3);
 }
 
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
+
 .medium-zoom-overlay {
   z-index: 100;
 }

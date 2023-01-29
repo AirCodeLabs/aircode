@@ -65,6 +65,7 @@ If you have never developed a cloud function before, it is recommended to follow
 - [Send HTTP Request](/guide/functions/http-request.html)
 - [Load Other Functions](/guide/functions/require.html)
 
-## Limit {#limits}
+## Limits {#limits}
 
-- [Resource Limit - Clould Function](/about/limits.html#functions)
+- [Resource Limits - Clould Function](/about/limits.html#functions)
+- [Resource Limits - Online Logs](/about/limits.html#logs)

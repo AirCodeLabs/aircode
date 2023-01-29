@@ -58,6 +58,6 @@ module.exports = async function(params, context) {
 <ACImage src="/_images/1671602551461.png" mode="light" />
 <ACImage src="/_images/1671602530168.png" mode="dark" />
 
-::: tip 提示
-为了保证服务稳定运行，日志带宽及保存日期会有相关限制，可参考：[资源限制 - 线上日志](/about/limits.html#线上日志)。
-:::
+## 相关限制 {#limits}
+
+为了保证服务稳定运行，日志产生和查询均有相关限制，可参考：[资源限制 - 线上日志](/about/limits.html#logs)。

@@ -51,7 +51,7 @@ module.exports = async function(params, context) {
 
 When performing a deletion, it is basically finding and deleting from the table based on the `_id` of the record. In the example above, `projection` is used to make the query result only contains the `_id` field, thereby reducing the size of data.
 
-In order to ensure the stability, there is a limit on the number of records that can be deleted at once. The update will fail if it exceeds the limit. See: [Resource Limits - Database - Delete Limits](/about/limits.html#database-delete).
+In order to ensure the stability, there is a limit on the number of records that can be deleted at once. The delete operation will fail if it exceeds the limit. See: [Resource Limits - Database - Delete Limits](/about/limits.html#database-delete).
 
 ## Direct Deletion {#delete-directly}
 

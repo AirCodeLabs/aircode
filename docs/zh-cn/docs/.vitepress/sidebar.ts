@@ -99,14 +99,14 @@ const sidebar: DefaultTheme.Sidebar = {
     //     { text: '删除个人账号', link: '/guide/accounts/delete' },
     //   ],
     // },
-    // {
-    //   text: '更多',
-    //   collapsible: true,
-    //   items: [
-    //     { text: '常见问题', link: '/about/faq' },
-    //     { text: '资源限制', link: '/about/limits' },
-    //   ],
-    // }
+    {
+      text: '更多',
+      collapsible: true,
+      items: [
+        // { text: '常见问题', link: '/about/faq' },
+        { text: '资源限制', link: '/about/limits' },
+      ],
+    }
   ],
 };
 
