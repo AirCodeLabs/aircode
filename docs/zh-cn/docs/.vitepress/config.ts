@@ -55,5 +55,10 @@ gtag('config', 'G-5Q7JHK36DC');
       pattern: 'https://github.com/aircodelabs/aircode/blob/main/docs/en/docs/src/:path',
       text: '在 GitHub 编辑此页',
     },
+    algolia: {
+      appId: 'DLBHPK5MQQ',
+      apiKey: '15800f32b34bb23d9bd4bf0fdf26153c',
+      indexName: 'cn-aircode'
+    },
   },
 });
