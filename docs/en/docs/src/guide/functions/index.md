@@ -64,6 +64,8 @@ If you have never developed a cloud function before, it is recommended to follow
 - [Environment Variable](/guide/functions/env.html)
 - [Send HTTP Request](/guide/functions/http-request.html)
 - [Load Other Functions](/guide/functions/require.html)
+- [Retrieve POST Parameters](/guide/functions/post-params.html)
+- [Retrieve GET Parameters](/guide/functions/get-params.html)
 
 ## Limits {#limits}
 

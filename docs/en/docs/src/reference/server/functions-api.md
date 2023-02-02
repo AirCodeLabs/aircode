@@ -23,14 +23,16 @@ The request data when accessing functions. It may represent different data depen
 `{Object | string | Buffer}`：When initializing a POST，`params` represents the content in the Request Body，and the concrete type is decided by Content Type：
 
 | Content Type | Params Data Type |
-| ---- | ---- |
-| `application/json` or `multipart/form-data` | `Object` |
+| :---- | :---- |
+| `application/json` | `Object` |
+| `multipart/form-data` | `Object` |
 | `text/plain` | `string` |
+| `application/x-www-form-urlencoded` | `Object` |
 | Others（e.g. `application/octet-stream`）| `Buffer` |
 
 **Guide**
 
-[POST Parameters](/guide/functions/post-params.html)
+[Retrieve POST Parameters](/guide/functions/post-params.html)
 
 ### GET Parameters {#get-params}
 
@@ -42,7 +44,7 @@ The value in the object is of `string` or `Array<string>` type, for example `par
 
 **Guide**
 
-[GET Parameters](/guide/functions/get-params.html)
+[Retrieve GET Parameters](/guide/functions/get-params.html)
 
 ## `context`
 

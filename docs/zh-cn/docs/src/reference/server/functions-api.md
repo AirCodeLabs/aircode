@@ -24,8 +24,10 @@ module.exports = async function(params, context) {
 
 | Content Type | params 数据类型 |
 | ---- | ---- |
-| `application/json` 或 `multipart/form-data` | `Object` |
+| `application/json` | `Object` |
+| `multipart/form-data` | `Object` |
 | `text/plain` | `string` |
+| `application/x-www-form-urlencoded` | `Object` |
 | 其他（例如 `application/octet-stream`）| `Buffer` |
 
 **参考教程**

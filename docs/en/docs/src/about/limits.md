@@ -45,7 +45,7 @@ All limits below are for **single application** levels.
 
 - Requests per second (QPS): **200**. That is, up to 200 function requests per second for the same application
 - Access concurrency: **20**. That is, the same application cannot handle more than 20 requests at the same time
-- Request load size: **5 MB**. That is, the size of a single Request Body or Response Body should not exceed 5 MB
+- Request load size: **30 MB**. That is, the size of a single Request Body or Response Body should not exceed 30 MB
 - Incoming data traffic: **1 GB/s**
 - Outgoing data traffic: **1 MB/s**
 

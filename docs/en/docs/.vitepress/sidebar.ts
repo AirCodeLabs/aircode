@@ -33,6 +33,8 @@ const sidebar: DefaultTheme.Sidebar = {
             { text: 'Environment Variable', link: '/guide/functions/env' },
             { text: 'Send HTTP Request', link: '/guide/functions/http-request' },
             { text: 'Load Other Functions', link: '/guide/functions/require' },
+            { text: 'POST Parameters', link: '/guide/functions/post-params' },
+            { text: 'GET Parameters', link: '/guide/functions/get-params' },
           ],
         },
       ],

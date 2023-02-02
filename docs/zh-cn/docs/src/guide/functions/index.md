@@ -63,6 +63,8 @@
 - [使用环境变量](/guide/functions/env.html)
 - [发送 HTTP 请求](/guide/functions/http-request.html)
 - [函数间引用](/guide/functions/require.html)
+- [获取 POST 参数](/guide/functions/post-params.html)
+- [获取 GET 参数](/guide/functions/get-params.html)
 
 ## 相关限制 {#limits}
 
