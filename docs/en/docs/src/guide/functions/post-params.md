@@ -1,4 +1,4 @@
-# Retrieve POST parameters {#intro}
+# Retrieve POST Parameters {#intro}
 
 When a cloud function is called using a POST request, the HTTP Request Body is converted into `params` variables in the corresponding function, making it easily accessible and usable by developers.
 
