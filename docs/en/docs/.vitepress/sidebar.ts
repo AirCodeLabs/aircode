@@ -4,6 +4,7 @@ const sidebar: DefaultTheme.Sidebar = {
   '/errors/': [],
   '/help/': [],
   '/legal/': [],
+  '/careers/': [],
   '/': [
     {
       text: 'Getting Started',
