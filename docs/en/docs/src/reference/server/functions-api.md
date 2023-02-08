@@ -52,25 +52,30 @@ The context of the request, also contains some helper methods.
 
 ### `context.headers`
 
+```js
+const contentType = context.headers['content-type'];
+const myCustomHeader = context.headers['x-my-header'];
+```
+
 `{Object}`：Get the headers of the HTTP request in the form of key-value pairs.
 
 ::: tip Tips
 The keys in the object are all lowercase, for example, it should be `context.headers['content-type']`, not `context.headers['Content-Type']`.
 :::
 
-**Guide**
-
-[Request Header and Method](/guide/functions/request-header-and-method.html)
-
 ### `context.method`
 
 `{string}`：Get the method of the HTTP request, the value is all uppercase, for example `'POST'`、`'GET'`。
 
-**Guide**
-
-[Response Header and Code](/guide/functions/request-header-and-method.html)
-
 ### `context.query`
+
+```js
+// ?hello=world&abc=xyz&abc=123
+const hello = context.hello;
+// => 'world'
+const abc = context.abc;
+// => [ 'xyz', '123' ] 
+```
 
 `{Object}`: Get the query String converted key-value object from the HTTP request, same as `params` in GET request.
 
@@ -92,7 +97,7 @@ The value in the object is of `string` or `Array<string>` type, for example `con
 
 ```js
 context.set('content-type', 'application/json');
-context.set('x-custom-header', 'hello world');
+context.set('x-abc-header', 'hello world');
 ```
 
 Set the returned HTTP Response Headers.
@@ -102,11 +107,11 @@ Set the returned HTTP Response Headers.
 - `{string} field`: the key of the Response Header to set
 - `{string} value`: The value of the Response Header to set
 
-**Guide**
-
-[Response Header and Code](/guide/functions/response-header-and-code.html)
-
 ### `context.remove(field)`
+
+```js
+context.remove('x-abc-header');
+```
 
 Delete the HTTP Response Header corresponding to the `field`.
 
@@ -114,22 +119,18 @@ Delete the HTTP Response Header corresponding to the `field`.
 
 - `{string} field`: the key of the Response Header to delete
 
-**Guide**
-
-[Response Header and Code](/guide/functions/response-header-and-code.html)
-
 ### `context.status(code)`
 
 ```js
 context.status(201);
 ```
 
+::: tip Tips
+By default, the Status Code returned by the function is `200` for successful execution and `500` for failed execution.
+:::
+
 Used to set the returned HTTP Status Code.
 
 **Parameter**
 
-- `{number} code`: The HTTP Status Code to set.
-
-**Guide**
-
-[Response Header and Code](/guide/functions/response-header-and-code.html)
+- `{number} code`: The HTTP Status Code to set. You can find all codes at [Wikipedia - List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).

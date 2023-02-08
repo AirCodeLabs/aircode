@@ -52,25 +52,30 @@ module.exports = async function(params, context) {
 
 ### `context.headers`
 
+```js
+const contentType = context.headers['content-type'];
+const myCustomHeader = context.headers['x-my-header'];
+```
+
 `{Object}`：获取 HTTP 请求的 Headers，为键值对形式。
 
 ::: tip 提示
 对象中的键均为小写字母，例如应该是 `context.headers['content-type']` 而非 `context.headers['Content-Type']`。
 :::
 
-**参考教程**
-
-[获取请求头和方法](/guide/functions/request-header-and-method.html)
-
 ### `context.method`
 
 `{string}`：获取 HTTP 请求的 Method，值为大写字母，例如 `'POST'`、`'GET'`。
 
-**参考教程**
-
-[获取请求头和方法](/guide/functions/request-header-and-method.html)
-
 ### `context.query`
+
+```js
+// ?hello=world&abc=xyz&abc=123
+const hello = context.hello;
+// => 'world'
+const abc = context.abc;
+// => [ 'xyz', '123' ] 
+```
 
 `{Object}`：获取 HTTP 请求的 Query String 转换的键值对象，在 GET 请求时与 `params` 相同。
 
@@ -92,7 +97,7 @@ module.exports = async function(params, context) {
 
 ```js
 context.set('content-type', 'application/json');
-context.set('x-custom-header', 'hello world');
+context.set('x-abc-header', 'hello world');
 ```
 
 设置返回的 HTTP Response Headers 信息。
@@ -102,21 +107,17 @@ context.set('x-custom-header', 'hello world');
 - `{string} field`：要设置的 Response Header 的键
 - `{string} value`：要设置的 Response Header 的值
 
-**参考教程**
-
-[设置返回头和状态码](/guide/functions/response-header-and-code.html)
-
 ### `context.remove(field)`
 
-删除对应 `field` 的 HTTP Response Header 信息。
+```js
+context.remove('x-abc-header');
+```
+
+删除对应 `field` 的 HTTP Response Header 信息，若不存在该 `field` 则不会执行任何操作。
 
 **参数**
 
 - `{string} field`：要删除的 Response Header 的键
-
-**参考教程**
-
-[设置返回头和状态码](/guide/functions/response-header-and-code.html)
 
 ### `context.status(code)`
 
@@ -126,10 +127,10 @@ context.status(201);
 
 用于设置返回的 HTTP Status Code 信息。
 
+::: tip 提示
+默认情况下函数执行成功返回的 Status Code 为 `200`，执行失败返回 `500`。
+:::
+
 **参数**
 
-- `{number} code`：要设置的 HTTP Status Code。
-
-**参考教程**
-
-[设置返回头和状态码](/guide/functions/response-header-and-code.html)
+- `{number} code`：要设置的 HTTP Status Code，可以设置的值参考：[Wikipedia - List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)

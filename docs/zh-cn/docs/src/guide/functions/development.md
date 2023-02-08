@@ -68,7 +68,7 @@ https://sample.hk.aircode.run/hello
 **更多参考**
 
 - 了解如何通过 `params` [获取 POST 参数](/guide/functions/post-params.html)和 [GET 参数](/guide/functions/get-params.html)
-- 了解如何通过 `context` [获取请求头和方法](/guide/functions/request-header-and-method.html)
+- 了解如何通过 `context` [获取和设置上下文](/reference/server/functions-api.html#context)
 
 ## 函数返回 {#response}
 
@@ -77,10 +77,6 @@ https://sample.hk.aircode.run/hello
 ::: warning 注意
 应该避免在返回值中包含循环引用，否则会造成输出错误。
 :::
-
-**更多参考**
-
-- 了解如何通过 `context` [设置返回头和状态码](/guide/functions/response-header-and-code.html)
 
 ## 处理异步任务 {#handle-async-tasks}
 

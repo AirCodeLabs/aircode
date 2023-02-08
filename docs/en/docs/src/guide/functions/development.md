@@ -69,8 +69,8 @@ will return：
 
 **Guide**
 
-- Learn how to get [POST Parameters](/guide/functions/post-params.html) and [GET Parameters](/guide/functions/get-params.html) via `params`
-- Learn how to get [Request Headers and Methods](/guide/functions/request-header-and-method.html) via `context`
+- Learn how to retrieve [POST Parameters](/guide/functions/post-params.html) and [GET Parameters](/guide/functions/get-params.html) via `params`
+- Learn how to get and set [HTTP Context](/guide/functions/request-header-and-method.html) via `context`
 
 ## Response {#response}
 
@@ -79,10 +79,6 @@ Every function's exports should have a return value, and this value will be retu
 ::: warning Note
 Circular references in the return value should be avoided, otherwise it will cause output errors.
 :::
-
-**Guide**
-
-- Learn how to set [Response Headers and Status Codes](/guide/functions/response-header-and-code.html) via `context`
 
 ## Handle Async Tasks {#handle-async-tasks}
 
