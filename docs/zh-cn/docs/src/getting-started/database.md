@@ -180,7 +180,7 @@ module.exports = async function (params, context) {
 <ListBoxContainer>
   <ListBox
     title="文件存储入门"
-    link="/getting-started/files.html"
+    link="/getting-started/files"
     description="一行代码上传文件，并得到一个 CDN 加速的访问地址"
     single
   />

@@ -61,7 +61,7 @@
 
 ::: tip 提示
 1. 冷启动的所有时间数据仅为预估值，实际中根据业务复杂度、代码包大小和网络情况等会有出入
-2. 关于冷启动的说明可参考[云函数运行时 - 冷启动](/reference/server/functions-runtime.html#cold-start)
+2. 关于冷启动的说明可参考[云函数运行时 - 冷启动](/reference/server/functions-runtime#cold-start)
 :::
 
 ### 环境变量 {#functions-environments}
@@ -74,7 +74,7 @@
 - 系统预留环境变量：所有以 `AC_` 开头的名称均为系统环境变量，因此自定义环境变量的 Key 不能以 `AC_` 开头
 
 ::: tip 提示
-关于环境变量的设置和使用，可参考[使用环境变量](/guide/functions/env.html)。
+关于环境变量的设置和使用，可参考[使用环境变量](/guide/functions/env)。
 :::
 
 ## 线上日志 {#logs}
@@ -94,7 +94,7 @@
 - 关键词查询限制：**20 个**，即每次查询最多输入 20 个关键词
 
 ::: tip 提示
-关于产生和查看线上日志的教程，可参考[线上日志](/guide/functions/logs.html)。
+关于产生和查看线上日志的教程，可参考[线上日志](/guide/functions/logs)。
 :::
 
 ## 数据库 {#database}
@@ -111,11 +111,11 @@
 ### 写入限制 {#database-write}
 
 - 单条记录数据量大小：**16 MB**
-- 批量写入最大总条数：**100**，即使用 `save` 进行[批量插入](/guide/database/insert.html#insert-multiple)或[批量更新](/guide/database/update.html#update-multiple)时，单次传入的记录条数不能超过 100
-- 批量写入总数据量：**128 MB**，即使用 `save` 进行[批量插入](/guide/database/insert.html#insert-multiple)或[批量更新](/guide/database/update.html#update-multiple)时，单次传入的所有记录的总大小不能超过 128 MB，注意单条记录的数据量大小仍然有 16 MB 的限制
+- 批量写入最大总条数：**100**，即使用 `save` 进行[批量插入](/guide/database/insert#insert-multiple)或[批量更新](/guide/database/update#update-multiple)时，单次传入的记录条数不能超过 100
+- 批量写入总数据量：**128 MB**，即使用 `save` 进行[批量插入](/guide/database/insert#insert-multiple)或[批量更新](/guide/database/update#update-multiple)时，单次传入的所有记录的总大小不能超过 128 MB，注意单条记录的数据量大小仍然有 16 MB 的限制
 
 ::: tip 提示
-使用[直接执行更新](/guide/database/update.html#set-and-save)的方式更新数据时，不受写入总条数的限制。当需要同时更新大量数据时，建议采用这种方式。
+使用[直接执行更新](/guide/database/update#set-and-save)的方式更新数据时，不受写入总条数的限制。当需要同时更新大量数据时，建议采用这种方式。
 :::
 
 ### 查询限制 {#database-find}
@@ -125,7 +125,7 @@
 - 单次查询总数据量：**128 MB**，当单次查询到的所有记录总大小超过 128 MB 时，会查询失败
 
 ::: tip 提示
-对于记录条数过多、数据量较大或耗时较长的查询，建议使用[索引优化查询](/guide/database/indexes.html)，并使用[排序和分页](/guide/database/find.html#sort-and-pagination)减少单次返回的条数和数据量。
+对于记录条数过多、数据量较大或耗时较长的查询，建议使用[索引优化查询](/guide/database/indexes)，并使用[排序和分页](/guide/database/find#sort-and-pagination)减少单次返回的条数和数据量。
 :::
 
 ### 删除限制 {#database-delete}
@@ -133,7 +133,7 @@
 - 单次删除最大条数：**100**，当单次删除时传入的 `_id` 数量超过 100 条时，会删除失败
 
 ::: tip 提示
-使用[直接执行删除](/guide/database/delete.html#delete-directly)的方式删除数据时，不受删除最大条数的限制。当需要同时删除大量数据时，建议采用这种方式。
+使用[直接执行删除](/guide/database/delete#delete-directly)的方式删除数据时，不受删除最大条数的限制。当需要同时删除大量数据时，建议采用这种方式。
 :::
 
 ## 文件存储 {#files}

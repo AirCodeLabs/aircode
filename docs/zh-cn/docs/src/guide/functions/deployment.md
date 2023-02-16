@@ -35,7 +35,7 @@
 <ACImage src="/_images/1671518414900.png" mode="light" />
 <ACImage src="/_images/1671518437944.png" mode="dark" />
 
-部署删除操作完成后，该函数在线上环境中就无法再被访问，同时函数也会从本地的函数列表中删除，被放入[函数回收站](/guide/functions/recycle.html)。
+部署删除操作完成后，该函数在线上环境中就无法再被访问，同时函数也会从本地的函数列表中删除，被放入[函数回收站](/guide/functions/recycle)。
 
 ## 部署版本 {#versions}
 

@@ -46,7 +46,7 @@ module.exports = async function(params, context) {
 }
 ```
 
-为了保证数据库的稳定性，对于单条记录的数据量大小会有限制，当超过时会更新失败。因此查询时建议使用 `projection` 来指定仅包含要更新的字段，以减少数据量。具体的数据量大小限制请参考：[资源限制 - 数据库 - 写入限制](/about/limits.html#database-write)。
+为了保证数据库的稳定性，对于单条记录的数据量大小会有限制，当超过时会更新失败。因此查询时建议使用 `projection` 来指定仅包含要更新的字段，以减少数据量。具体的数据量大小限制请参考：[资源限制 - 数据库 - 写入限制](/about/limits#database-write)。
 
 ## 更新多条记录 {#update-multiple}
 
@@ -79,11 +79,11 @@ module.exports = async function(params, context) {
 }
 ```
 
-为了保证数据库的稳定性，对于单次更新的记录条数会有限制，超过时会更新失败，请参考：[资源限制 - 数据库 - 写入限制](/about/limits.html#database-write)。
+为了保证数据库的稳定性，对于单次更新的记录条数会有限制，超过时会更新失败，请参考：[资源限制 - 数据库 - 写入限制](/about/limits#database-write)。
 
 ## save 方法的原理 {#the-principle-of-save}
 
-`save` 方法即可以用来[插入数据](/guide/database/insert.html)也可以用来[更新数据](#update-one)，其最大区别是传入的记录是否包含数据库中存在的 `_id` 字段。
+`save` 方法即可以用来[插入数据](/guide/database/insert)也可以用来[更新数据](#update-one)，其最大区别是传入的记录是否包含数据库中存在的 `_id` 字段。
 
 - 若传入的记录包含 `_id` 字段且数据库中有该条记录，则会执行更新操作
 - 否则，会执行插入操作，并自动生成全局唯一的 `_id` 字段
@@ -118,7 +118,7 @@ module.exports = async function(params, context) {
 }
 ```
 
-示例中的 `db.inc` 是更新操作符，代表将对应字段的值进行增加。这些更新操作符都在 `aircode.db` 对象下，完整的更新操作符可参考：[数据库 API - 更新操作符](/reference/server/database-api.html#update-operators)。
+示例中的 `db.inc` 是更新操作符，代表将对应字段的值进行增加。这些更新操作符都在 `aircode.db` 对象下，完整的更新操作符可参考：[数据库 API - 更新操作符](/reference/server/database-api#update-operators)。
 
 ## 更新或插入数据（Upsert） {#upsert}
 

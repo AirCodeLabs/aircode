@@ -37,7 +37,7 @@ module.exports = async function(params, context) {
 - `console.info` 或 `console.debug`：`console.log` 的别名方法，产生的日志级别为 `Info`
 - `console.error` 或 `console.warn`：打印错误日志，产生的日志级别为 `Error`
 
-更多使用方法请参考：[Node.js Console API](https://nodejs.org/api/console.html)。
+更多使用方法请参考：[Node.js Console API](https://nodejs.org/api/console)。
 
 ## 打开/关闭日志实时获取 {#toggle-realtime-fetching}
 
@@ -60,4 +60,4 @@ module.exports = async function(params, context) {
 
 ## 相关限制 {#limits}
 
-为了保证服务稳定运行，日志产生和查询均有相关限制，可参考：[资源限制 - 线上日志](/about/limits.html#logs)。
+为了保证服务稳定运行，日志产生和查询均有相关限制，可参考：[资源限制 - 线上日志](/about/limits#logs)。

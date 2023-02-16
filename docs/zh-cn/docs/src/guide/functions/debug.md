@@ -29,7 +29,7 @@
 
 ### Headers {#request-data-headers}
 
-在 **Headers** 区域中的内容会作为请求头被携带，可以从函数中通过 `context.headers` 获取。请求头是键值对的形式，其值一定为 `string` 类型，更多可参考：[获取请求头和方法](/guide/functions/request-header-and-method.html)。
+在 **Headers** 区域中的内容会作为请求头被携带，可以从函数中通过 `context.headers` 获取。请求头是键值对的形式，其值一定为 `string` 类型，更多可参考：[获取请求头和方法](/guide/functions/request-header-and-method)。
 
 ## 调试结果和日志 {#response-and-logs}
 

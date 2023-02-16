@@ -16,12 +16,12 @@ AirCode 是一个在线开发和部署 Node.js 应用的平台，为全栈工程
 />
 <ListBox
   title="数据库入门"
-  link="/getting-started/database.html"
+  link="/getting-started/database"
   description="跟随这个简单的教程，学会如何在 AirCode 的云函数中进行数据库操作"
 />
 <ListBox
   title="文件存储入门"
-  link="/getting-started/files.html"
+  link="/getting-started/files"
   description="一行代码上传文件，并得到一个 CDN 加速的访问地址"
 />
 </ListBoxContainer>
@@ -48,22 +48,22 @@ AirCode 是一个在线开发和部署 Node.js 应用的平台，为全栈工程
 />
 <!-- <ListBox
   title="应用管理"
-  link="/guide/apps/manage.html"
+  link="/guide/apps/manage"
   description="了解如何创建、管理、转移或删除一个 AirCode 应用"
 />
 <ListBox
   title="账号管理"
-  link="/guide/accounts/create.html"
+  link="/guide/accounts/create"
   description="管理你在 AirCode 的登录方式，并针对个人账号内容进行设置"
 /> -->
 <ListBox
   title="常见问题"
-  link="/about/faq.html"
+  link="/about/faq"
   description="使用 AirCode 中可能会遇到的一些问题，在此寻求解决方案"
 />
 <ListBox
   title="资源限制"
-  link="/about/limits.html"
+  link="/about/limits"
   description="查看不同套餐情况下资源数限制，以及如何更改或提高限额"
 />
 </ListBoxContainer>
@@ -74,23 +74,23 @@ AirCode 是一个在线开发和部署 Node.js 应用的平台，为全栈工程
 
 <ListBoxContainer>
 <ListBox
-  link="/reference/server/functions-runtime.html"
+  link="/reference/server/functions-runtime"
   title="云函数运行时"
   description="关于云函数 Node.js 版本、超时时间、环境变量、自动扩缩容、冷启动等的说明"
 />
 <ListBox
-  link="/reference/server/functions-api.html"
+  link="/reference/server/functions-api"
   title="云函数 API"
   description="关于函数模板、params 及 context 的定义"
 />
 <ListBox
   title="数据库 API"
-  link="/reference/server/database-api.html"
+  link="/reference/server/database-api"
   description="关于 aircode.db 的所有接口定义"
 />
 <ListBox
   title="文件存储 API"
-  link="/reference/server/files-api.html"
+  link="/reference/server/files-api"
   description="关于 aircode.files 的所有接口定义"
 />
 <ListBox

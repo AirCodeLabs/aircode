@@ -32,7 +32,7 @@ module.exports = async function(params, context) {
 
 **参考教程**
 
-[获取 POST 请求参数](/guide/functions/post-params.html)
+[获取 POST 请求参数](/guide/functions/post-params)
 
 ### GET 请求时 {#get-params}
 
@@ -44,7 +44,7 @@ module.exports = async function(params, context) {
 
 **参考教程**
 
-[获取 GET 请求参数](/guide/functions/get-params.html)
+[获取 GET 请求参数](/guide/functions/get-params)
 
 ## `context`
 
@@ -89,9 +89,9 @@ const abc = context.abc;
 
 | 取值 | 调用来源 | 参考教程 |
 | ---- | ---- | ---- |
-| `'HTTP'` | 通过 HTTP/HTTPS 的形式调用 | [调用云函数](/guide/functions/invoke.html) |
-| `'SCHEDULE'` | 通过配置的定时任务调用 | [定时任务](/guide/functions/schedule-jobs.html) |
-| `'DEBUG'` | 通过在线调试调用 | [在线调试云函数](/guide/functions/debug.html) |
+| `'HTTP'` | 通过 HTTP/HTTPS 的形式调用 | [调用云函数](/guide/functions/invoke) |
+| `'SCHEDULE'` | 通过配置的定时任务调用 | [定时任务](/guide/functions/schedule-jobs) |
+| `'DEBUG'` | 通过在线调试调用 | [在线调试云函数](/guide/functions/debug) |
 
 ### `context.set(field, value)`
 

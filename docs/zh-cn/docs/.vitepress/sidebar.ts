@@ -17,7 +17,7 @@ const sidebar: DefaultTheme.Sidebar = {
     },
     {
       text: '云函数',
-      collapsible: true,
+      collapsed: false,
       items: [
         { text: '云函数概览', link: '/guide/functions/' },
         { text: '在线开发云函数', link: '/guide/functions/development' },
@@ -47,7 +47,7 @@ const sidebar: DefaultTheme.Sidebar = {
     },
     {
       text: '数据库',
-      collapsible: true,
+      collapsed: false,
       items: [
         { text: '数据库概览', link: '/guide/database/' },
         { text: '插入数据', link: '/guide/database/insert' },
@@ -73,7 +73,7 @@ const sidebar: DefaultTheme.Sidebar = {
     },
     {
       text: '文件存储',
-      collapsible: true,
+      collapsed: false,
       items: [
         { text: '文件存储概览', link: '/guide/files/' },
         { text: '上传文件', link: '/guide/files/upload' },
@@ -84,7 +84,7 @@ const sidebar: DefaultTheme.Sidebar = {
     },
     // {
     //   text: '应用管理',
-    //   collapsible: true,
+    //   collapsed: false,
     //   items: [
     //     { text: '创建和管理应用', link: '/guide/apps/manage' },
     //     { text: '转移和删除应用', link: '/guide/apps/transfer-and-delete' },
@@ -92,7 +92,7 @@ const sidebar: DefaultTheme.Sidebar = {
     // },
     // {
     //   text: '账号管理',
-    //   collapsible: true,
+    //   collapsed: false,
     //   items: [
     //     { text: '创建个人账号', link: '/guide/accounts/create' },
     //     { text: '管理登录方式', link: '/guide/accounts/login' },
@@ -102,7 +102,7 @@ const sidebar: DefaultTheme.Sidebar = {
     // },
     {
       text: '更多',
-      collapsible: true,
+      collapsed: false,
       items: [
         // { text: '常见问题', link: '/about/faq' },
         { text: '资源限制', link: '/about/limits' },

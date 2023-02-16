@@ -22,7 +22,7 @@ __索引类型（必选）__
 
 - ASC：升序索引，即从小到大
 - DESC：降序索引，即从大到小
-- 2DSPHERE：地理位置索引，参考[基于地理位置查询](/guide/database/geo.html)
+- 2DSPHERE：地理位置索引，参考[基于地理位置查询](/guide/database/geo)
 
 __名称（可选）__
 

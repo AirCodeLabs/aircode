@@ -3,12 +3,12 @@
 线上云函数可以通过 HTTP 进行调用。
 
 ::: tip 提示
-只有部署后的云函数才能在真实环境中被调用，若你还不知道如何部署，请参考：[部署云函数](/guide/functions/deployment.html)。
+只有部署后的云函数才能在真实环境中被调用，若你还不知道如何部署，请参考：[部署云函数](/guide/functions/deployment)。
 :::
 
 <!-- ## 通过 SDK 调用 {#client-sdk}
 
-我们提供了一个 JavaScript SDK [`aircode-sdk`](/reference/client/javascript-sdk.html)，可以方便地从前端调用云函数。
+我们提供了一个 JavaScript SDK [`aircode-sdk`](/reference/client/javascript-sdk)，可以方便地从前端调用云函数。
 
 示例：
 
@@ -36,7 +36,7 @@ aircode.run(functionName, { message: 'Hello World' })
   });
 ```
 
-完整的 JavaScript SDK 文档请参考：[客户端 JavaScript SDK](/reference/client/javascript-sdk.html)。 -->
+完整的 JavaScript SDK 文档请参考：[客户端 JavaScript SDK](/reference/client/javascript-sdk)。 -->
 
 ## 通过 HTTP 调用 {#http}
 

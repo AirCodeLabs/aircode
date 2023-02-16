@@ -9,6 +9,7 @@ export default defineConfig({
   description: '在线开发和发布 Node.js 应用，这就是 AirCode。',
   srcDir: 'src',
   lastUpdated: true,
+  cleanUrls: true,
   markdown: {
     theme: {
       light: 'github-light',

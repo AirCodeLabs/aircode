@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "typescript": "^4.7.4",
-    "vitepress": "^1.0.0-alpha.32",
+    "vitepress": "^1.0.0-alpha.46",
     "vue": "^3.2.37"
   },
   "homepage": "https://docs.aircode.io",

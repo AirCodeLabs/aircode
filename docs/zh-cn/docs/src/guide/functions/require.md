@@ -56,6 +56,6 @@ module.exports = async function(params, context) {
 注意，如果希望在线上成功调用，则**所有**被引用的函数都需要部署。在本例中，即需要同时部署 `tools.js` 和 `caller.js` 函数。
 
 ::: tip 更多参考
-- 通过 `require` 只能引用**同一应用**下的不同函数，若希望调用**其他应用**中的函数，可直接通过 HTTP 的形式访问，参考[调用云函数](/guide/functions/invoke.html)
-- 若想了解更多关于 Node.js 模块引用的细节，可参考 [Node.js Modules 文档](https://nodejs.org/api/modules.html)
+- 通过 `require` 只能引用**同一应用**下的不同函数，若希望调用**其他应用**中的函数，可直接通过 HTTP 的形式访问，参考[调用云函数](/guide/functions/invoke)
+- 若想了解更多关于 Node.js 模块引用的细节，可参考 [Node.js Modules 文档](https://nodejs.org/api/modules)
 :::

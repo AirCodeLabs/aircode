@@ -123,7 +123,7 @@ const file3 = await aircode.files.upload(buf3, 'buf3-sample.txt');
 ```
 
 ::: tip 提示
-`Buffer` 是 Node.js 提供的一个类，继承自 JavaScript 的 `Unit8Array` 类。更多细节请参考 [Node.js 官方文档](https://nodejs.org/api/buffer.html)。
+`Buffer` 是 Node.js 提供的一个类，继承自 JavaScript 的 `Unit8Array` 类。更多细节请参考 [Node.js 官方文档](https://nodejs.org/api/buffer)。
 :::
 
 ## 保存 `Stream` 流式数据 {#stream-content}
@@ -142,7 +142,7 @@ const file = await aircode.files.upload(stream, 'stream-sample.json');
 ```
 
 ::: tip 提示
-`Stream` 是 Node.js 提供的一个类，若想了解细节请参考 [Node.js 官方文档](https://nodejs.org/api/stream.html)。
+`Stream` 是 Node.js 提供的一个类，若想了解细节请参考 [Node.js 官方文档](https://nodejs.org/api/stream)。
 :::
 
 ## 转存网络文件 {#external-url}

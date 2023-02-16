@@ -52,7 +52,7 @@ __返回__
 
 __参考教程__
 
-- [上传文件](/guide/files/upload.html)
+- [上传文件](/guide/files/upload)
 
 ## `files.download(file, [options])`
 
@@ -90,7 +90,7 @@ __返回__
 
 __参考教程__
 
-- [下载文件](/guide/files/download.html)
+- [下载文件](/guide/files/download)
 
 ## `files.delete(file | arrayOfFiles)`
 
@@ -135,4 +135,4 @@ __返回__
 
 __参考教程__
 
-- [删除文件](/guide/files/delete.html)
+- [删除文件](/guide/files/delete)

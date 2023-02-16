@@ -36,7 +36,7 @@ module.exports = async function(params, context) {
 - `context` 包含请求时的上下文信息以及一些辅助方法
 
 ::: warning 注意
-如果没有通过 `module.exports` 导出一个 `async` 函数，则该云函数将无法被线上请求。这一般会被用于私有函数，更多细节请参考：[私有函数](/guide/functions/private.html)。
+如果没有通过 `module.exports` 导出一个 `async` 函数，则该云函数将无法被线上请求。这一般会被用于私有函数，更多细节请参考：[私有函数](/guide/functions/private)。
 :::
 
 示例：
@@ -67,8 +67,8 @@ https://sample.hk.aircode.run/hello
 
 **更多参考**
 
-- 了解如何通过 `params` [获取 POST 参数](/guide/functions/post-params.html)和 [GET 参数](/guide/functions/get-params.html)
-- 了解如何通过 `context` [获取和设置上下文](/reference/server/functions-api.html#context)
+- 了解如何通过 `params` [获取 POST 参数](/guide/functions/post-params)和 [GET 参数](/guide/functions/get-params)
+- 了解如何通过 `context` [获取和设置上下文](/reference/server/functions-api#context)
 
 ## 函数返回 {#response}
 
@@ -191,7 +191,7 @@ module.exports = async function(params, context) {
 }
 ```
 
-若对于函数中有全局变量存储需求，建议使用数据库，参见：[数据库入门](/getting-started/database.html)。
+若对于函数中有全局变量存储需求，建议使用数据库，参见：[数据库入门](/getting-started/database)。
 
 ## 删除云函数 {#delete}
 
@@ -202,5 +202,5 @@ module.exports = async function(params, context) {
 
 **更多参考**
 
-- 如果删除的这个函数已经上线过，则需要再执行一次部署才能从线上将其删除，参考：[部署云函数 - 部署删除操作](/guide/functions/deployment.html#deploy-the-deleting-operations)
-- 删除后的云函数会被放到函数回收站，可以查看和恢复，参考：[函数回收站](/guide/functions/recycle.html)
+- 如果删除的这个函数已经上线过，则需要再执行一次部署才能从线上将其删除，参考：[部署云函数 - 部署删除操作](/guide/functions/deployment#deploy-the-deleting-operations)
+- 删除后的云函数会被放到函数回收站，可以查看和恢复，参考：[函数回收站](/guide/functions/recycle)

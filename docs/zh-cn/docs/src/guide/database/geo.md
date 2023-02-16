@@ -22,7 +22,7 @@ AirCode 数据库支持存储地理位置数据，并基于地理位置来实现
 - 纬度值为 -90 到 90，正数代表北纬，负数代表南纬
 :::
 
-完整的地理位置对象定义及示例，可参考[数据库 API - 地理位置对象](/reference/server/database-api.html#geospatial-objects)。
+完整的地理位置对象定义及示例，可参考[数据库 API - 地理位置对象](/reference/server/database-api#geospatial-objects)。
 
 ## 建立地理索引 {#geospatial-indexes}
 
@@ -73,4 +73,4 @@ module.exports = async function(params, context) {
 }
 ```
 
-完整的地理操作符和示例，可参考[数据库 API - 地理操作符](/reference/server/database-api.html#geospatial-operators)。
+完整的地理操作符和示例，可参考[数据库 API - 地理操作符](/reference/server/database-api#geospatial-operators)。

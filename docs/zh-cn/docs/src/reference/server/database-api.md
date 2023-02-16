@@ -45,8 +45,8 @@ __返回__
 
 __参考教程__
 
-- [插入数据](/guide/database/insert.html)
-- [更新数据](/guide/database/update.html)
+- [插入数据](/guide/database/insert)
+- [更新数据](/guide/database/update)
 
 ---
 
@@ -77,7 +77,7 @@ __返回__
 
 __参考教程__
 
-- [删除数据](/guide/database/delete.html)
+- [删除数据](/guide/database/delete)
 
 ---
 
@@ -209,7 +209,7 @@ __返回__
 
 __参考教程__
 
-- [更新数据 - 直接执行更新](/guide/database/update.html#set-and-save)
+- [更新数据 - 直接执行更新](/guide/database/update#set-and-save)
 
 ### `Query.delete()`
 
@@ -313,7 +313,7 @@ const records = await PersonsTable
 限制单次查询返回的记录总条数，一般与 `sort` 和 `skip` 配合使用实现分页查询。
 
 ::: tip 重要提示
-为了确保查询过程的稳定性，对于查询结果的最大条数有一定限制，即使 `limit` 设置超过这个最大值也不会生效，具体限制请参考：[资源限制 - 数据库 - 查询限制](/about/limits.html#database-find)。
+为了确保查询过程的稳定性，对于查询结果的最大条数有一定限制，即使 `limit` 设置超过这个最大值也不会生效，具体限制请参考：[资源限制 - 数据库 - 查询限制](/about/limits#database-find)。
 :::
 
 __参数__
@@ -384,7 +384,7 @@ __返回__
 
 __参考教程__
 
-- [更新数据 - 直接执行更新](/guide/database/update.html#set-and-save)
+- [更新数据 - 直接执行更新](/guide/database/update#set-and-save)
 
 ---
 
@@ -426,7 +426,7 @@ __返回__
 
 __参考教程__
 
-- [更新数据 - 更新或插入数据（Upsert）](/guide/database/update.html#upsert)
+- [更新数据 - 更新或插入数据（Upsert）](/guide/database/update#upsert)
 
 ---
 
@@ -470,7 +470,7 @@ __返回__
 
 __参考教程__
 
-- [更新数据 - 更新或插入数据（Upsert）](/guide/database/update.html#upsert)
+- [更新数据 - 更新或插入数据（Upsert）](/guide/database/update#upsert)
 
 ## 逻辑链式 {#logical-chain}
 
@@ -495,7 +495,7 @@ __返回__
 
 __参考教程__
 
-- [查询数据 - 使用逻辑操作符组合多个查询条件](/guide/database/find.html#logical-operator)
+- [查询数据 - 使用逻辑操作符组合多个查询条件](/guide/database/find#logical-operator)
 
 ---
 
@@ -520,7 +520,7 @@ __返回__
 
 __参考教程__
 
-- [查询数据 - 使用逻辑操作符组合多个查询条件](/guide/database/find.html#logical-operator)
+- [查询数据 - 使用逻辑操作符组合多个查询条件](/guide/database/find#logical-operator)
 
 ---
 
@@ -545,7 +545,7 @@ __返回__
 
 __参考教程__
 
-- [查询数据 - 使用逻辑操作符组合多个查询条件](/guide/database/find.html#logical-operator)
+- [查询数据 - 使用逻辑操作符组合多个查询条件](/guide/database/find#logical-operator)
 
 ## 对比操作符 {#comparison-operators}
 
@@ -1150,7 +1150,7 @@ __返回__
 
 ## 地理位置对象 {#geospatial-objects}
 
-地理位置对象是符合一定格式的 JavaScript 对象，可以用于[地理位置查询](/guide/database/geo.html)。
+地理位置对象是符合一定格式的 JavaScript 对象，可以用于[地理位置查询](/guide/database/geo)。
 
 每个地理位置对象都包含以下两个字段：
 
@@ -1322,7 +1322,7 @@ __返回__
 
 __参考教程__
 
-- [基于地理位置查询](/guide/database/geo.html)
+- [基于地理位置查询](/guide/database/geo)
 
 ---
 
@@ -1354,7 +1354,7 @@ __返回__
 
 __参考教程__
 
-- [基于地理位置查询](/guide/database/geo.html)
+- [基于地理位置查询](/guide/database/geo)
 
 ---
 
@@ -1391,7 +1391,7 @@ __返回__
 
 __参考教程__
 
-- [基于地理位置查询](/guide/database/geo.html)
+- [基于地理位置查询](/guide/database/geo)
 
 ---
 
@@ -1428,7 +1428,7 @@ __返回__
 
 __参考教程__
 
-- [基于地理位置查询](/guide/database/geo.html)
+- [基于地理位置查询](/guide/database/geo)
 
 ## 更新操作符 {#update-operators}
 
@@ -1630,7 +1630,7 @@ __返回__
 
 __参考教程__
 
-- [查询数据 - 使用逻辑操作符组合多个查询条件](/guide/database/find.html#logical-operator)
+- [查询数据 - 使用逻辑操作符组合多个查询条件](/guide/database/find#logical-operator)
 
 
 ---
@@ -1654,7 +1654,7 @@ __返回__
 
 __参考教程__
 
-- [查询数据 - 使用逻辑操作符组合多个查询条件](/guide/database/find.html#logical-operator)
+- [查询数据 - 使用逻辑操作符组合多个查询条件](/guide/database/find#logical-operator)
 
 ---
 
@@ -1677,7 +1677,7 @@ __返回__
 
 __参考教程__
 
-- [查询数据 - 使用逻辑操作符组合多个查询条件](/guide/database/find.html#logical-operator)
+- [查询数据 - 使用逻辑操作符组合多个查询条件](/guide/database/find#logical-operator)
 
 ---
 

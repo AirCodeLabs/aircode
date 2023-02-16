@@ -90,12 +90,12 @@ https://sample.hk.aircode.run/postParams
 ```
 
 ::: tip 提示
-如果想详细了解如何从浏览器上传文件，并保存到 AirCode 的文件存储中，可参考教程：[上传文件 - 在浏览器中上传](/guide/files/upload.html#browser-upload)。
+如果想详细了解如何从浏览器上传文件，并保存到 AirCode 的文件存储中，可参考教程：[上传文件 - 在浏览器中上传](/guide/files/upload#browser-upload)。
 :::
 
 ## `application/x-www-form-urlencoded` {#application-x-www-form-urlencoded}
 
-当请求的 Content Type 为 `application/x-www-form-urlencoded` 时，`params` 的类型为 `Object`，其值是对 Request Body 使用 [`querystring.parse`](https://nodejs.org/api/querystring.html#querystringparsestr-sep-eq-options) 得到的。
+当请求的 Content Type 为 `application/x-www-form-urlencoded` 时，`params` 的类型为 `Object`，其值是对 Request Body 使用 [`querystring.parse`](https://nodejs.org/api/querystring#querystringparsestr-sep-eq-options) 得到的。
 
 ::: tip 提示
 当使用 `application/x-www-form-urlencoded` 时，所有参数对应的值均为 `string` 或 `Array<string>` 类型，即传递 `a=1` 时 `params.a === '1'`。

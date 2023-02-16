@@ -42,7 +42,7 @@ module.exports = async function(params, context) {
 }
 ```
 
-为了确保查询过程的稳定性，对于查询结果的最大条数和数据量大小均有限制，请参考：[资源限制 - 数据库 - 查询限制](/about/limits.html#database-find)。
+为了确保查询过程的稳定性，对于查询结果的最大条数和数据量大小均有限制，请参考：[资源限制 - 数据库 - 查询限制](/about/limits#database-find)。
 
 ## 获取单条记录 {#find-one}
 
@@ -86,7 +86,7 @@ module.exports = async function(params, context) {
 }
 ```
 
-特别的，当正则表达式以 `^` 开头时，还可以利用已经建立的索引来优化查询效率，更多可参考[使用索引优化查询](/guide/database/indexes.html)。
+特别的，当正则表达式以 `^` 开头时，还可以利用已经建立的索引来优化查询效率，更多可参考[使用索引优化查询](/guide/database/indexes)。
 
 ## 按大于、小于等比较条件查询 {#comparison}
 
@@ -115,7 +115,7 @@ module.exports = async function(params, context) {
 }
 ```
 
-完整的查询操作符定义请参考：[数据库 API - 对比操作符](/reference/server/database-api.html#comparison-operators)。
+完整的查询操作符定义请参考：[数据库 API - 对比操作符](/reference/server/database-api#comparison-operators)。
 
 ## 按时间区间查询 {#date}
 
@@ -344,4 +344,4 @@ module.exports = async function(params, context) {
 
 ## 更多查询条件 {#advanced}
 
-完整的数据库查询条件及操作符请参考[数据库 API](/reference/server/database-api.html)。
+完整的数据库查询条件及操作符请参考[数据库 API](/reference/server/database-api)。

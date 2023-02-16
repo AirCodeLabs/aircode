@@ -137,7 +137,7 @@ https://sample.hk.aircode.run/myHelloWorld?payload=hello
 
 <ListBoxContainer>
   <ListBox
-    link="/getting-started/database.html"
+    link="/getting-started/database"
     title="数据库入门"
     description="跟随这个简单的教程，学会如何在 AirCode 的云函数中进行数据库操作"
     single

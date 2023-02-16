@@ -45,7 +45,7 @@ module.exports = async function(params, context) {
 环境变量的值类型均为 `string` 类型，若有其他需求可自行在代码中进行转换。
 :::
 
-为了保证系统的稳定性，环境变量的数量和大小都包含相关限制，请参考[资源限制 - 云函数 - 环境变量](/about/limits.html#functions-environments)。
+为了保证系统的稳定性，环境变量的数量和大小都包含相关限制，请参考[资源限制 - 云函数 - 环境变量](/about/limits#functions-environments)。
 
 ## 让环境变量在线上生效 {#deploy}
 
@@ -75,4 +75,4 @@ curl https://sample.hk.aircode.run/env
 - `AC_NODE_JS_VERSION`：当前运行时的 Node.js 版本
 - `AC_REGION`：当前应用的部署区域
 
-完整的系统环境变量列表请查看：[云函数运行时 - 系统环境变量](/reference/server/functions-runtime.html#system-environments)。
+完整的系统环境变量列表请查看：[云函数运行时 - 系统环境变量](/reference/server/functions-runtime#system-environments)。
