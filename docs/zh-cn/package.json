@@ -5,13 +5,13 @@
   "license": "Apache-2.0",
   "scripts": {
     "dev": "yarn docs:dev",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs && cp vercel.json docs/.vitepress/dist",
-    "docs:serve": "vitepress serve docs"
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build . && cp vercel.json .vitepress/dist",
+    "docs:serve": "vitepress serve ."
   },
   "devDependencies": {
     "typescript": "^4.7.4",
-    "vitepress": "^1.0.0-alpha.46",
+    "vitepress": "1.0.0-alpha.45",
     "vue": "^3.2.37"
   },
   "homepage": "https://docs.aircode.io",

@@ -13,7 +13,7 @@ export default defineConfig({
   markdown: {
     theme: {
       light: 'github-light',
-      dark: 'material-palenight',
+      dark: 'material-theme-palenight',
     },
   },
   head: [
