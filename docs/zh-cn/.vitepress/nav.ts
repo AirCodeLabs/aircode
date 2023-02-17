@@ -27,8 +27,8 @@ const nav: DefaultTheme.NavItem[] = [
       {
         text: '更多',
         items: [
-          // { text: '常见问题', link: '/about/faq' },
           { text: '资源限制', link: '/about/limits' },
+          { text: '常见问题', link: '/about/faq' },
         ],
       },
     ],

@@ -25,8 +25,8 @@ const nav: DefaultTheme.NavItem[] = [
       {
         text: 'More',
         items: [
-          // { text: 'FAQs', link: '/about/faq' },
           { text: 'Limits', link: '/about/limits' },
+          { text: 'FAQs', link: '/about/faq' },
         ],
       },
     ],
