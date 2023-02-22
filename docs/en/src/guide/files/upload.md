@@ -5,7 +5,7 @@ Upload files to the cloud through `await aircode.files.upload(content, [name], [
 ```js
 const aircode = require('aircode');
 
-module.epxorts = async function (params, context) {
+module.exports = async function (params, context) {
   // Use `aircode.files.upload` to upload a file
   const file = await aircode.files.upload(
     'Hello World',          // Content, as string
@@ -33,7 +33,7 @@ For example, let's create a cloud function called `uploadFile.js`:
 ```js
 const aircode = require('aircode');
 
-module.epxorts = async function (params, context) {
+module.exports = async function (params, context) {
   // Get the file from multipart/form-data params, `myFile` is the key
   const { myFile } = params;
 

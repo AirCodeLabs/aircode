@@ -5,7 +5,7 @@
 ```js
 const aircode = require('aircode');
 
-module.epxorts = async function (params, context) {
+module.exports = async function (params, context) {
   // Use `aircode.files.upload` to upload a file
   const file = await aircode.files.upload(
     'Hello World',          // Content, as string
@@ -33,7 +33,7 @@ module.epxorts = async function (params, context) {
 ```js
 const aircode = require('aircode');
 
-module.epxorts = async function (params, context) {
+module.exports = async function (params, context) {
   // Get the file from multipart/form-data params, `myFile` is the key
   const { myFile } = params;
 
