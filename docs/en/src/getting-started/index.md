@@ -1,10 +1,10 @@
 # Quick Start {#intro}
 
-This is a 5-minute onboarding tutorial for developers who are new to AirCode. Through this tutorial, you will learn:
+This doc is a 5-minute onboarding tutorial for developers new to AirCode. Through this tutorial, you will learn the following:
 1. Create an AirCode application, develop and debug cloud functions online
-2. Deploy a Hello World online API, which can be invoked directly through HTTP
+2. Deploy a Hello World online API, and invoke it directly through HTTP
 
-We have provided an example that you can run directly. Click **Run**, and you will see the result of the function in below example.
+We have provided an example that you can run directly. Click **Run**to see the function result in the example below.
 
 <script setup>
 import { useData } from 'vitepress';
@@ -24,21 +24,21 @@ const { isDark } = useData();
 
 Sign up and log in to [AirCode Dashboard](https://aircode.io/dashboard), click **+ New Node.js App**, and enter the app name in the pop-up window to create an App.
 
-> Here we create an App called `Hello World`.
+> Here, we create an App called `Hello World`.
 
 <ACImage src="/_images/1668073287668.png" mode="light" />
 <ACImage src="/_images/1671505257580.png" mode="dark" />
 
-After the creation, it will automatically jump to the created App page, where you can complete the development, debugging and deployment.
+After the creation, it will automatically jump to the created App page, where you can complete the development, debugging, and deployment.
 
 <ACImage src="/_images/1671505485031.png" mode="light" />
 <ACImage src="/_images/1671505442147.png" mode="dark" />
 
 ## Create a Function {#create-a-function}
 
-Every new application will have a cloud function named `hello.js` by default, or you can create your own functions. Click the **+** button, enter your function's name, and click **✓** to finish the creation.
+Every new application will have a default cloud function named `hello.js`, or you can create your functions. Click the **+** button, enter your function's name, and click **✓** to finish the creation.
 
-> Here we create a cloud function named `myHelloWorld.js`.
+> Here, we create a cloud function named `myHelloWorld.js`.
 
 <ACImage src="/_images/1671505845666.png" mode="light" />
 <ACImage src="/_images/1671505926961.png" mode="dark" />
@@ -82,7 +82,7 @@ In the **Debug** area on the right, modify the content of the **Params** to the 
 }
 ```
 
-Click the **Debug** button to send the request to the function `myHelloWorld.js`. At this time, the JSON string of the **Params** will be passed to the function as a parameter, and can be obtained in the function through the `params` field.
+Click the **Debug** button to send the request to the function `myHelloWorld.js`. At this time, the JSON string of the **Params** will be passed to the function as a parameter and can be obtained in the function through the `params` field.
 
 You can see the return message of the function in the **Response** area:
 
@@ -103,7 +103,7 @@ In the "Console" area, you can see the log output through `console.log` when the
 
 ## Deploy a Function {#deploy}
 
-When finishing the development, we just need to deploy it, and then we can invoke it in reality.
+After finishing the development, we need to deploy it, and then we can invoke it in reality.
 
 Click the **Deploy** button in the top bar, keep the options in the pop-up window unchanged, and click **Deploy**.
 
@@ -115,7 +115,7 @@ After the deployment is successful, an online URL of the function will appear be
 <ACImage src="/_images/1671506405456.png" mode="light" />
 <ACImage src="/_images/1671506377900.png" mode="dark" />
 
-This URL can be accessed directly through the browser. To pass parameters, just add params in the form of `?key=value` to the URL, e.g:
+You can access this URL directly through the browser. To pass parameters, add params in the form of `?key=value` to the URL, e.g.:
 
 ```
 https://sample.hk.aircode.run/myHelloWorld?payload=hello
@@ -133,13 +133,13 @@ Or directly check out our runnable example:
 
 ## What's Next? {#next}
 
-Congratulations on developing and deploying your first cloud function, let's see how to access the database directly in the function.
+Congratulations on developing and deploying your first cloud function. Let's see how to access the database directly in the function.
 
 <ListBoxContainer>
   <ListBox
     link="/getting-started/database"
     title="Introduction to Database"
-    description="Follow this simple tutorial to learn how to do database operations with AirCode's cloud functions"
+    description="Follow this simple tutorial to learn how to do database operations with AirCode's cloud functions."
     single
   />
 </ListBoxContainer>
