@@ -1,9 +1,8 @@
 # About AirCode {#intro}
 
-AirCode is an online developing & deploying platform for Node.js applications tailored for full-stack engineers,
-to simplify the development process.
+AirCode is an online platform designed to streamline the development and deployment of Node.js applications, tailored for full-stack engineers.
 
-AirCode provides easy-to-use in-browser IDE and out-of-the-box cloud services. Developers no longer need to worry about the back-end technology selection, environment setup, and operation. Just open a browser to develop and deploy your product globally.
+With an intuitive in-browser IDE and pre-configured cloud services, AirCode takes care of the backend technology selection, environment setup, and operation, so you can focus on building great products. No more complex setup processes, no more headaches over server management - open your browser, and you're ready to go.
 
 ## Tutorials {#tutorials}
 
