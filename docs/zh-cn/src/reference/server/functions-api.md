@@ -90,7 +90,7 @@ const abc = context.abc;
 | 取值 | 调用来源 | 参考教程 |
 | ---- | ---- | ---- |
 | `'HTTP'` | 通过 HTTP/HTTPS 的形式调用 | [调用云函数](/guide/functions/invoke) |
-| `'SCHEDULE'` | 通过配置的定时任务调用 | [定时任务](/guide/functions/schedule-jobs) |
+| `'SCHEDULE'` | 通过配置的定时任务调用 | [定时任务](/guide/functions/scheduled-tasks) |
 | `'DEBUG'` | 通过在线调试调用 | [在线调试云函数](/guide/functions/debug) |
 
 ### `context.set(field, value)`

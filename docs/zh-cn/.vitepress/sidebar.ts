@@ -22,10 +22,12 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: '云函数概览', link: '/guide/functions/' },
         { text: '在线开发云函数', link: '/guide/functions/development' },
         { text: '在线调试云函数', link: '/guide/functions/debug' },
+        { text: '函数间引用', link: '/guide/functions/require' },
         { text: '部署云函数', link: '/guide/functions/deployment' },
         { text: '调用云函数', link: '/guide/functions/invoke' },
         { text: '线上日志', link: '/guide/functions/logs' },
         { text: '使用 NPM 安装依赖', link: '/guide/functions/npm' },
+        { text: '使用定时任务', link: '/guide/functions/scheduled-tasks' },
         { text: '云函数运行时', link: '/reference/server/functions-runtime' },
         { text: '云函数 API', link: '/reference/server/functions-api' },
         {
@@ -33,7 +35,6 @@ const sidebar: DefaultTheme.Sidebar = {
           items: [
             { text: '使用环境变量', link: '/guide/functions/env' },
             { text: '发送 HTTP 请求', link: '/guide/functions/http-request' },
-            { text: '函数间引用', link: '/guide/functions/require' },
             { text: '获取 POST 参数', link: '/guide/functions/post-params' },
             { text: '获取 GET 参数', link: '/guide/functions/get-params' },
             // { text: '获取请求头和方法', link: '/guide/functions/request-header-and-method' },

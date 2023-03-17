@@ -15,32 +15,42 @@ If you have never developed a cloud function before, it is recommended to follow
 <ListBox
   link="/guide/functions/development"
   title="Develop Online"
-  description="Use WebIDE to develop cloud functions. Learn the function's parameters, returned value, error handling and timezone, etc"
+  description="Use WebIDE to develop cloud functions. Learn the function's parameters, returned value, error handling and timezone, etc."
 />
 <ListBox
   link="/guide/functions/debug"
   title="Debug Online"
-  description="Learn how to debug your code online, pass params and view the results, and how to use online requests to make debugging easier"
+  description="Learn how to debug your code online, pass params and view the results, and how to use online requests to make debugging easier."
 />
 <ListBox
   link="/guide/functions/deployment"
   title="Deployment"
-  description="Deploy functions online, generate accessible URL addresses, and learn how to view and manage versions"
+  description="Deploy functions online, generate accessible URL addresses, and learn how to view and manage versions."
+/>
+<ListBox
+  link="/guide/functions/require"
+  title="Load Other Functions"
+  description="In the same application, use require to load other cloud functions and implement function calls between them.."
 />
 <ListBox
   link="/guide/functions/invoke"
   title="Invoke Functions"
-  description="Invoke functions via SDK or HTTP, including a description of timeout and CORS policies"
+  description="Invoke functions via SDK or HTTP, including a description of timeout and CORS policies."
 />
 <ListBox
   link="/guide/functions/logs"
   title="Online Logs"
-  description="Get real-time logs when the function is running, and filter log by time, keywords, and others to facilitate troubleshooting"
+  description="Get real-time logs when the function is running, and filter log by time, keywords, and others to facilitate troubleshooting."
 />
 <ListBox
   link="/guide/functions/npm"
   title="Using NPM"
-  description="Learn how to use NPM to find, install, and manage your app's dependencies"
+  description="Learn how to use NPM to find, install, and manage your app's dependencies."
+/>
+<ListBox
+  link="/guide/functions/scheduled-tasks"
+  title="Scheduled Tasks"
+  description="There is no need to write Cronjob expressions, as configuring scheduled tasks is as easy as scheduling events on a calendar."
 />
 </ListBoxContainer>
 
@@ -55,7 +65,7 @@ If you have never developed a cloud function before, it is recommended to follow
 <ListBox
   link="/reference/server/functions-api"
   title="Function API"
-  description="Definitions of cloud function templates, params and context"
+  description="Definitions of cloud function templates, params and context."
 />
 </ListBoxContainer>
 
@@ -63,7 +73,6 @@ If you have never developed a cloud function before, it is recommended to follow
 
 - [Environment Variable](/guide/functions/env)
 - [Send HTTP Request](/guide/functions/http-request)
-- [Load Other Functions](/guide/functions/require)
 - [Retrieve POST Parameters](/guide/functions/post-params)
 - [Retrieve GET Parameters](/guide/functions/get-params)
 

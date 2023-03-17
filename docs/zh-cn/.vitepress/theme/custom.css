@@ -30,3 +30,8 @@
 .medium-zoom-overlay ~ img {
   z-index: 101;
 }
+
+.vp-doc img {
+  margin-left: auto;
+  margin-right: auto;
+}

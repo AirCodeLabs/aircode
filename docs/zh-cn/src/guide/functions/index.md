@@ -22,6 +22,11 @@
   description="了解如何在线调试接口代码，传递参数并查看运行结果，以及如何使用线上请求来提升调试效率"
 />
 <ListBox
+  link="/guide/functions/require"
+  title="函数间引用"
+  description="在同一个应用中，通过 require 来引用其他云函数，实现函数间的调用"
+/>
+<ListBox
   link="/guide/functions/deployment"
   title="部署云函数"
   description="将开发完成的函数部署到线上，生成可直接访问的 URL 地址，并了解如何查看和管理版本"
@@ -41,6 +46,10 @@
   title="使用 NPM 安装依赖"
   description="了解如何使用 NPM 来在线查找、安装和管理应用的依赖"
 />
+<ListBox
+  link="/guide/functions/scheduled-tasks"
+  title="使用定时任务"
+  description="无需写 Cronjob 表达式，像在日历中安排日程一样配置定时任务" />
 </ListBoxContainer>
 
 ## API 定义 {#api}
@@ -62,7 +71,6 @@
 
 - [使用环境变量](/guide/functions/env)
 - [发送 HTTP 请求](/guide/functions/http-request)
-- [函数间引用](/guide/functions/require)
 - [获取 POST 参数](/guide/functions/post-params)
 - [获取 GET 参数](/guide/functions/get-params)
 

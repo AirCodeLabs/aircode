@@ -17,3 +17,7 @@
 ## 怎么和其他系统的 Webhook 连接起来？ {#how-to-connect-webhook}
 
 每个部署后的云函数都会生成一个 URL 地址，该地址直接通过 HTTP 访问。你可以将该地址粘贴到对应系统的 Webhook 中，这样当有相关事件发生时，对应的系统即会向该地址发送 HTTP 请求。
+
+## 可以通过定时任务调用云函数吗？ {#scheduled-tasks}
+
+可以，AirCode 提供了一种简单的方式配置定时任务调用云函数，无需编写 Cronjob 表达式。参考[定时任务](/guide/functions/scheduled-tasks)。

@@ -90,7 +90,7 @@ The value in the object is of `string` or `Array<string>` type, for example `con
 | Value | Trigger | Guide |
 | ---- | ---- | ---- |
 | `'HTTP'` | via HTTP/HTTPS | [Invoke Functions](/guide/functions/invoke) |
-| `'SCHEDULE'` | via schedule jobs | [Schedule Jobs](/guide/functions/schedule-jobs) |
+| `'SCHEDULE'` | via scheduled tasks | [Scheduled Tasks](/guide/functions/scheduled-tasks) |
 | `'DEBUG'` | via online debugging | [Debug Online](/guide/functions/debug) |
 
 ### `context.set(field, value)`

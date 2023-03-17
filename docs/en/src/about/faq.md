@@ -17,3 +17,7 @@ Yes, in AirCode's cloud functions, you can directly access the database through 
 ## How to connect with webhooks of other systems? {#how-to-connect-webhook}
 
 Each deployed cloud function generates a URL address, accessed directly via HTTP. You can paste this address into the webhook of the corresponding system so that when a relevant event occurs, the system will send an HTTP request to this address.
+
+## Can Cloud Functions Be Called by Scheduled Tasks? {#scheduled-tasks}
+
+Yes, AirCode provides a simple way to configure scheduled tasks to call cloud functions without the need to write Cronjob expressions. Refer to [Scheduled Tasks](/guide/functions/scheduled-tasks).
