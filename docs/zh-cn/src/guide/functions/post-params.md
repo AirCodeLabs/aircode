@@ -95,7 +95,7 @@ https://sample.hk.aircode.run/postParams
 
 ## `application/x-www-form-urlencoded` {#application-x-www-form-urlencoded}
 
-当请求的 Content Type 为 `application/x-www-form-urlencoded` 时，`params` 的类型为 `Object`，其值是对 Request Body 使用 [`querystring.parse`](https://nodejs.org/api/querystring#querystringparsestr-sep-eq-options) 得到的。
+当请求的 Content Type 为 `application/x-www-form-urlencoded` 时，`params` 的类型为 `Object`，其值是对 Request Body 使用 [`querystring.parse`](https://nodejs.org/dist/latest-v18.x/docs/api/querystring#querystringparsestr-sep-eq-options.html) 得到的。
 
 ::: tip 提示
 当使用 `application/x-www-form-urlencoded` 时，所有参数对应的值均为 `string` 或 `Array<string>` 类型，即传递 `a=1` 时 `params.a === '1'`。

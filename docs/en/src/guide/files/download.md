@@ -51,7 +51,7 @@ console.log('Buffer size:', contentAsBuffer.length);
 ```
 
 ::: tip Tips
-`Buffer` is a class provided by Node.js, which inherits from JavaScript's `Unit8Array` class. For more details, please refer to [Node.js Doc](https://nodejs.org/api/buffer).
+`Buffer` is a class provided by Node.js, which inherits from JavaScript's `Unit8Array` class. For more details, please refer to [Node.js Doc](https://nodejs.org/dist/latest-v18.x/docs/api/buffer.html).
 :::
 
 When downloading as `Buffer`, the entire file content will be stored in memory. If the file size is too large, it may affect the running efficiency of the instance, or even cause memory overflow. Generally for files over 30 MB, it is recommended to [Download as `Stream`](#stream).
@@ -113,7 +113,7 @@ contentAsStream.pipe(localFile);
 ```
 
 ::: tip Tips
-`Stream` is a class provided by Node.js. For details, please refer to [Node.js Doc](https://nodejs.org/api/stream).
+`Stream` is a class provided by Node.js. For details, please refer to [Node.js Doc](https://nodejs.org/dist/latest-v18.x/docs/api/stream.html).
 :::
 
 ## Monitor {#on-progress}

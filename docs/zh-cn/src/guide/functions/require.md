@@ -57,5 +57,5 @@ module.exports = async function(params, context) {
 
 ::: tip 更多参考
 - 通过 `require` 只能引用**同一应用**下的不同函数，若希望调用**其他应用**中的函数，可直接通过 HTTP 的形式访问，参考[调用云函数](/guide/functions/invoke)
-- 若想了解更多关于 Node.js 模块引用的细节，可参考 [Node.js Modules 文档](https://nodejs.org/api/modules)
+- 若想了解更多关于 Node.js 模块引用的细节，可参考 [Node.js Modules 文档](https://nodejs.org/dist/latest-v18.x/docs/api/modules.html)
 :::

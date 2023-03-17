@@ -125,7 +125,7 @@ const file3 = await aircode.files.upload(buf3, 'buf3-sample.txt');
 ```
 
 ::: tip Tips
-`Buffer` is a class provided by Node.js, which inherits from JavaScript's `Unit8Array` class. For more details, please refer to [Node.js Doc](https://nodejs.org/api/buffer).
+`Buffer` is a class provided by Node.js, which inherits from JavaScript's `Unit8Array` class. For more details, please refer to [Node.js Doc](https://nodejs.org/dist/latest-v18.x/docs/api/buffer.html).
 :::
 
 ## Save `Stream` Content {#stream-content}
@@ -144,7 +144,7 @@ const file = await aircode.files.upload(stream, 'stream-sample.json');
 ```
 
 ::: tip Tips
-`Stream` is a class provided by Node.js. For details, please refer to [Node.js Doc](https://nodejs.org/api/stream).
+`Stream` is a class provided by Node.js. For details, please refer to [Node.js Doc](https://nodejs.org/dist/latest-v18.x/docs/api/stream.html).
 :::
 
 ## Dump Network Files {#external-url}

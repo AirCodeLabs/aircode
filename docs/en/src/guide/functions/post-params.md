@@ -97,7 +97,7 @@ If you want to learn more about how to upload files from your browser and save t
 
 ## `application/x-www-form-urlencoded` {#application-x-www-form-urlencoded}
 
-When the Content Type of the request is `application/x-www-form-urlencoded`, the type of `params` is `Object`, and its value represents the Request Body processed by [`querystring.parse`](https://nodejs.org/api/querystring#querystringparsestr-sep-eq-options).
+When the Content Type of the request is `application/x-www-form-urlencoded`, the type of `params` is `Object`, and its value represents the Request Body processed by [`querystring.parse`](https://nodejs.org/dist/latest-v18.x/docs/api/querystring#querystringparsestr-sep-eq-options.html).
 
 ::: tip Tips
 When using `application/x-www-form-urlencoded`, all values are of type `string` or `Array<string>`, i.e., `params.a === '1'` when passed `a=1`.

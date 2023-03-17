@@ -51,7 +51,7 @@ console.log('Buffer size:', contentAsBuffer.length);
 ```
 
 ::: tip 提示
-`Buffer` 是 Node.js 提供的一个类，继承自 JavaScript 的 `Unit8Array` 类。更多细节请参考 [Node.js 官方文档](https://nodejs.org/api/buffer)。
+`Buffer` 是 Node.js 提供的一个类，继承自 JavaScript 的 `Unit8Array` 类。更多细节请参考 [Node.js 官方文档](https://nodejs.org/dist/latest-v18.x/docs/api/buffer.html)。
 :::
 
 下载为 `Buffer` 时，整个文件内容都会被存储到内存中。如果文件体积过大，则有可能会影响实例运行效率，甚至造成内存溢出。一般对于超过 30 MB 的文件，建议将内容[下载为 `Stream` 数据流](#stream)。
@@ -113,7 +113,7 @@ contentAsStream.pipe(localFile);
 ```
 
 ::: tip 提示
-`Stream` 是 Node.js 提供的一个类，若想了解细节请参考 [Node.js 官方文档](https://nodejs.org/api/stream)。
+`Stream` 是 Node.js 提供的一个类，若想了解细节请参考 [Node.js 官方文档](https://nodejs.org/dist/latest-v18.x/docs/api/stream.html)。
 :::
 
 ## 监听下载过程 {#on-progress}

@@ -57,5 +57,5 @@ Note that **all** required Cloud Functions need to be deployed to ensure they ca
 
 ::: tip More
 - Through `require`, you can only load other functions under **the same application**. If you want to call functions in **other applications**, you can invoke them by sending HTTP requests. Please refer to [Invoke Functions](/guide/functions/invoke)
-- For more details about Node.js modules, please refer to [Node.js Modules Documentation](https://nodejs.org/api/modules)
+- For more details about Node.js modules, please refer to [Node.js Modules Documentation](https://nodejs.org/dist/latest-v18.x/docs/api/modules.html)
 :::

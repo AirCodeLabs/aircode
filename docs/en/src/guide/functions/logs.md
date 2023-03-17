@@ -37,7 +37,7 @@ In addition to `console.log`, other methods can be used to generate different le
 - `console.info` or `console.debug`: an alias method for `console.log`, which produces a log level of `Info`
 - `console.error` or `console.warn`: print the error log, and the generated log level is `Error`
 
-For more usage, see: [Node.js Console API](https://nodejs.org/api/console).
+For more usage, see: [Node.js Console API](https://nodejs.org/dist/latest-v18.x/docs/api/console.html).
 
 ## Toggle Realtime Fetching {#toggle-realtime-fetching}
 
