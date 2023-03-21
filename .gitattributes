@@ -1,0 +1,26 @@
+# .gitattributes
+
+# See https://github.com/github/linguist#vendored-code
+demos/*
+
+# Set the default behavior for line endings, to always use LF
+* text=auto eol=lf
+
+# Specify binary files, so Git doesn't try to modify them
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+
+# Define files that should always use CRLF line endings
+*.bat text eol=crlf
+
+# Define files that should always use LF line endings
+*.sh text eol=lf
+
+# Define custom merge strategies for specific files or file types
+*.json merge=ours
