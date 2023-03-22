@@ -11,8 +11,7 @@ const sidebar: DefaultTheme.Sidebar = {
       items: [
         { text: 'AirCode 介绍', link: '/' },
         { text: '快速上手', link: '/getting-started/' },
-        { text: '数据库入门', link: '/getting-started/database' },
-        { text: '文件存储入门', link: '/getting-started/files' },
+        { text: '常见问题', link: '/about/faq' },
       ],
     },
     {
@@ -51,6 +50,7 @@ const sidebar: DefaultTheme.Sidebar = {
       collapsed: false,
       items: [
         { text: '数据库概览', link: '/guide/database/' },
+        { text: '数据库入门', link: '/getting-started/database' },
         { text: '插入数据', link: '/guide/database/insert' },
         { text: '查询数据', link: '/guide/database/find' },
         { text: '更新数据', link: '/guide/database/update' },
@@ -77,6 +77,7 @@ const sidebar: DefaultTheme.Sidebar = {
       collapsed: false,
       items: [
         { text: '文件存储概览', link: '/guide/files/' },
+        { text: '文件存储入门', link: '/getting-started/files' },
         { text: '上传文件', link: '/guide/files/upload' },
         { text: '下载文件', link: '/guide/files/download' },
         { text: '删除文件', link: '/guide/files/delete' },
@@ -106,7 +107,6 @@ const sidebar: DefaultTheme.Sidebar = {
       collapsed: false,
       items: [
         { text: '资源限制', link: '/about/limits' },
-        { text: '常见问题', link: '/about/faq' },
       ],
     }
   ],

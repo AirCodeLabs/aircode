@@ -12,9 +12,16 @@ const item = await MyTable.save({
 
 另外，数据库底层是 Schema Free 的。这意味着你不需要提前配置数据字段，只需要直接存储数据，AirCode 会自动识别字段信息并用于展示。
 
-::: details 还未在 AirCode 中用过数据库？
-如果你之前从未使用过数据库，或对在 AirCode 中使用数据库的方式感到陌生，建议先跟随[数据库入门](/getting-started/database)快速上手。
-:::
+## 快速上手 {#quickstart}
+
+<ListBoxContainer>
+<ListBox
+  title="数据库入门"
+  link="/getting-started/database"
+  description="跟随这个简单的教程，学会如何在 AirCode 的云函数中进行数据库操作"
+  single
+/>
+</ListBoxContainer>
 
 ## 基本使用 {#essentials}
 

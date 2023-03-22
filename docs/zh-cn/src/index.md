@@ -4,31 +4,26 @@ AirCode 是一个在线开发和部署 Node.js 应用的平台，为全栈工程
 
 我们通过提供极致简单的 WebIDE 和开箱即用的云服务，让开发者无需再操心后端选型、环境搭建和线上运维等一系列繁琐之事，只需打开浏览器即可完成产品开发，并部署到全球节点。
 
-## 快速开始 {#quickstarts}
+## 快速开始 {#getting-started}
 
-为了帮助你快速了解 AirCode 的使用方式和核心功能，感受 AirCode 在开发体验上带来的提升，我们设计了一些手把手的教程。
+为了帮助你快速了解 AirCode 的使用方式和核心功能，我们设计了一个 5 分钟的入门教程。
 
 <ListBoxContainer>
 <ListBox
   title="快速上手"
   link="/getting-started/"
   description="只用 5 分钟，开发并发布一个 Hello World 线上后端接口，快速认识云函数"
-/>
-<ListBox
-  title="数据库入门"
-  link="/getting-started/database"
-  description="跟随这个简单的教程，学会如何在 AirCode 的云函数中进行数据库操作"
-/>
-<ListBox
-  title="文件存储入门"
-  link="/getting-started/files"
-  description="一行代码上传文件，并得到一个 CDN 加速的访问地址"
+  single
 />
 </ListBoxContainer>
 
-## 使用教程 {#guide}
+## 使用教程 {#tutorials}
 
-如果你刚接触 AirCode，建议通过以下教程，由浅入深地了解如何在 AirCode 中运用各项功能。
+针对在真实场景中通过 AirCode 创建机器人的方法，我们准备了一系列手把手的实践教程。
+
+## 功能指南 {#features}
+
+通过以下功能指南，可以由浅入深地了解如何在 AirCode 中运用各项功能。
 
 <ListBoxContainer>
 <ListBox
@@ -56,11 +51,6 @@ AirCode 是一个在线开发和部署 Node.js 应用的平台，为全栈工程
   link="/guide/accounts/create"
   description="管理你在 AirCode 的登录方式，并针对个人账号内容进行设置"
 /> -->
-<ListBox
-  title="常见问题"
-  link="/about/faq"
-  description="使用 AirCode 中可能会遇到的一些问题，在此寻求解决方案"
-/>
 <ListBox
   title="资源限制"
   link="/about/limits"
@@ -93,11 +83,11 @@ AirCode 是一个在线开发和部署 Node.js 应用的平台，为全栈工程
   link="/reference/server/files-api"
   description="关于 aircode.files 的所有接口定义"
 />
-<ListBox
+<!-- <ListBox
   title="错误索引"
   link="/errors/"
   description="AirCode 中所有平台错误和服务错误码的索引，快速找到错误原因和解决方案"
-/>
+/> -->
 </ListBoxContainer>
 
 <!-- ## 最佳实践 -->

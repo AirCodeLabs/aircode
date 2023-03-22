@@ -133,15 +133,4 @@ https://sample.hk.aircode.run/myHelloWorld?payload=hello
 
 ## 接下来 {#next}
 
-恭喜你开发并部署了第一个云函数，接下来让我们看看如何在云函数中直接访问数据库。
-
-<ListBoxContainer>
-  <ListBox
-    link="/getting-started/database"
-    title="数据库入门"
-    description="跟随这个简单的教程，学会如何在 AirCode 的云函数中进行数据库操作"
-    single
-  />
-</ListBoxContainer>
-
-如果想了解更多和云函数相关的使用方法，可查看[云函数概览](/guide/functions/)。
+恭喜你开发并部署了第一个云函数。针对在真实场景中通过 AirCode 创建机器人的方法，我们准备了一系列手把手的实践教程。

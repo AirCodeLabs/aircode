@@ -175,15 +175,4 @@ module.exports = async function (params, context) {
 
 ## 接下来 {#next}
 
-恭喜你已经学会在 AirCode 中使用数据库的基本方式，接下来让我们看看如何通过一行代码上传文件。
-
-<ListBoxContainer>
-  <ListBox
-    title="文件存储入门"
-    link="/getting-started/files"
-    description="一行代码上传文件，并得到一个 CDN 加速的访问地址"
-    single
-  />
-</ListBoxContainer>
-
-如果想了解更多和数据库相关的使用方法，可查看[数据库概览](/guide/database/)。
+恭喜你已经学会在 AirCode 中使用数据库的基本方式，如果想了解更多和数据库相关的使用方法，可查看[数据库概览](/guide/database/)。

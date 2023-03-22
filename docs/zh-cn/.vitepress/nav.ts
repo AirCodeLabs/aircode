@@ -6,16 +6,15 @@ const nav: DefaultTheme.NavItem[] = [
     activeMatch: '^/((getting-started|guide|about)/.*)?$',
     items: [
       {
-        text: '入门指南',
+        text: '入门',
         items: [
           { text: 'AirCode 介绍', link: '/' },
           { text: '快速上手', link: '/getting-started/' },
-          { text: '数据库入门', link: '/getting-started/database' },
-          { text: '文件存储入门', link: '/getting-started/files' },
+          { text: '常见问题', link: '/about/faq' },
         ],
       },
       {
-        text: '功能介绍',
+        text: '功能',
         items: [
           { text: '云函数', link: '/guide/functions/' },
           { text: '数据库', link: '/guide/database/' },
@@ -28,7 +27,6 @@ const nav: DefaultTheme.NavItem[] = [
         text: '更多',
         items: [
           { text: '资源限制', link: '/about/limits' },
-          { text: '常见问题', link: '/about/faq' },
         ],
       },
     ],
