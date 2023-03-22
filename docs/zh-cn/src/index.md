@@ -23,6 +23,11 @@ AirCode 是一个在线开发和部署 Node.js 应用的平台，为全栈工程
 
 <ListBoxContainer>
 <ListBox
+  title="开发飞书 ChatGPT 机器人"
+  link="/tutorials/feishu-chatgpt"
+  description="开发一个飞书机器人，不仅可以对话聊天，还可以接入 ChatGPT，变为一个智能助理。"
+/>
+<ListBox
   title="将 Siri 接入 ChatGPT"
   link="/tutorials/siri-chatgpt"
   description="将 Siri 接入 ChatGPT，直接语音唤醒，并且支持连续对话"

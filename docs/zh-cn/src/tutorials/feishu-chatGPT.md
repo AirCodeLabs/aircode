@@ -1,4 +1,4 @@
-# 用 JavaScript 创建飞书 ChatGPT 机器人
+# 用 JavaScript 五分钟开发一个飞书 ChatGPT 机器人
 
 本文帮助你快速实现一个飞书对话机器人，并在其中接入 ChatGPT 的能力，可以直接问它问题，也可以在群聊天中 at 它，返回 ChatGPT 的回答。（以下为效果截图）
 
