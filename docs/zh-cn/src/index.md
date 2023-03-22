@@ -21,6 +21,14 @@ AirCode 是一个在线开发和部署 Node.js 应用的平台，为全栈工程
 
 针对在真实场景中通过 AirCode 创建机器人的方法，我们准备了一系列手把手的实践教程。
 
+<ListBoxContainer>
+<ListBox
+  title="将 Siri 接入 ChatGPT"
+  link="/tutorials/siri-chatgpt"
+  description="将 Siri 接入 ChatGPT，直接语音唤醒，并且支持连续对话"
+/>
+</ListBoxContainer>
+
 ## 功能指南 {#features}
 
 通过以下功能指南，可以由浅入深地了解如何在 AirCode 中运用各项功能。

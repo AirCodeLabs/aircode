@@ -32,6 +32,13 @@ const nav: DefaultTheme.NavItem[] = [
     ],
   },
   {
+    text: '教程',
+    activeMatch: '^/tutorials/',
+    items: [
+      { text: '将 Siri 接入 ChatGPT', link: '/tutorials/siri-chatgpt' },
+    ],
+  },
+  {
     text: 'API 参考',
     activeMatch: '^/(reference|errors)/',
     items: [
@@ -52,10 +59,6 @@ const nav: DefaultTheme.NavItem[] = [
     text: '帮助和支持',
     activeMatch: '^/help/',
     link: '/help/',
-  },
-  {
-    text: '控制台',
-    link: 'https://aircode.io/dashboard',
   },
   {
     text: 'Language',
