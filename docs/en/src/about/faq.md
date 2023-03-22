@@ -1,4 +1,4 @@
-# FAQs {#intro}
+# FAQ | Frequently Asked Questions {#intro}
 
 [[toc]]
 

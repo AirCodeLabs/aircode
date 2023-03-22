@@ -10,7 +10,7 @@ const nav: DefaultTheme.NavItem[] = [
         items: [
           { text: 'About AirCode', link: '/' },
           { text: 'Quick Start', link: '/getting-started/' },
-          { text: 'FAQs', link: '/about/faq' },
+          { text: 'FAQ', link: '/about/faq' },
         ],
       },
       {
@@ -24,7 +24,7 @@ const nav: DefaultTheme.NavItem[] = [
       {
         text: 'More',
         items: [
-          { text: 'Limits', link: '/about/limits' },
+          { text: 'Resource Limits', link: '/about/limits' },
         ],
       },
     ],

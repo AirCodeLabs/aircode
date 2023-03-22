@@ -11,7 +11,7 @@ const sidebar: DefaultTheme.Sidebar = {
       items: [
         { text: 'About AirCode', link: '/' },
         { text: 'Quick Start', link: '/getting-started/' },
-        { text: 'FAQs', link: '/about/faq' },
+        { text: 'FAQ', link: '/about/faq' },
       ],
     },
     {
