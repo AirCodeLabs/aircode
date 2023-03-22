@@ -134,3 +134,36 @@ https://sample.hk.aircode.run/myHelloWorld?payload=hello
 ## 接下来 {#next}
 
 恭喜你开发并部署了第一个云函数。针对在真实场景中通过 AirCode 创建机器人的方法，我们准备了一系列手把手的实践教程。
+
+<ListBoxContainer>
+<ListBox
+  title="将 Siri 接入 ChatGPT"
+  link="/tutorials/siri-chatgpt"
+  description="将 Siri 接入 ChatGPT，直接语音唤醒，并且支持连续对话"
+/>
+</ListBoxContainer>
+
+如果你想更详细地了解如何在 AirCode 中运用各项功能，可以参考以下功能指南。
+
+<ListBoxContainer>
+<ListBox
+  title="云函数"
+  link="/guide/functions/"
+  description="使用 Node.js 编写代码，在线测试并极速发布为线上接口"
+/>
+<ListBox
+  title="数据库"
+  link="/guide/database/"
+  description="直接在云函数中调用接口，完成增删改查或更高级的数据操作"
+/>
+<ListBox
+  title="文件存储"
+  link="/guide/files/"
+  description="上传、下载、删除文件，都只需要一行代码，还有自带的 CDN 加速功能"
+/>
+<ListBox
+  title="资源限制"
+  link="/about/limits"
+  description="查看不同套餐情况下资源数限制，以及如何更改或提高限额"
+/>
+</ListBoxContainer>

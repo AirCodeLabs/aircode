@@ -4,31 +4,34 @@ AirCode is an online platform designed to streamline the development and deploym
 
 With an intuitive in-browser IDE and pre-configured cloud services, AirCode takes care of the backend technology selection, environment setup, and operation, so you can focus on building great products. No more complex setup processes, no more headaches over server management - open your browser, and you're ready to go.
 
-## Tutorials {#tutorials}
+## Getting Started {#getting-started}
 
-To help you quickly get familiar with the usage and functions of AirCode, and experience the improvements in the development, we designed some hands-on tutorials for you.
+To help you quickly get familiar with the usage and core features of AirCode, we have designed a 5-minute introductory tutorial.
 
 <ListBoxContainer>
 <ListBox
   title="Quick Start"
   link="/getting-started/"
   description="It only takes 5 minutes to develop and publish a Hello World online back-end service to understand cloud functions quickly."
+  single
 />
+</ListBoxContainer>
+
+## Tutorials {#tutorials}
+
+In regards to the method of creating robots in real-life scenarios using AirCode, we have prepared a series of hands-on practical tutorials.
+
+<ListBoxContainer>
 <ListBox
-  title="Database Introduction"
-  link="/getting-started/database"
-  description="Follow this simple tutorial to learn how to do database operations with AirCode's cloud functions."
-/>
-<ListBox
-  title="File Storage Introduction"
-  link="/getting-started/files"
-  description="One-line code to upload files and get a CDN-accelerated access address."
+  title="Connect Siri to ChatGPT"
+  link="/tutorials/siri-chatgpt"
+  description="Integrate Siri with ChatGPT, enable voice activation, and support continuous conversations."
 />
 </ListBoxContainer>
 
 ## Features {#features}
 
-If you are new to AirCode, we recommend you go through the following guides to learn more about the features of AirCode, from simple to complex.
+By following the guides below, you can progressively gain a deeper understanding of how to utilize various features in AirCode.
 
 <ListBoxContainer>
 <ListBox
@@ -83,9 +86,9 @@ If you are familiar with AirCode, you can use these technical manuals for quick 
   link="/reference/server/files-api"
   description="API definitions about aircode.files."
 />
-<ListBox
+<!-- <ListBox
   title="Error Code Index"
   link="/errors/"
   description="Indexes of platform and service error codes in AirCode to quickly find root causes and solutions."
-/>
+/> -->
 </ListBoxContainer>
