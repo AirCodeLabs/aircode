@@ -11,8 +11,14 @@ const sidebar: DefaultTheme.Sidebar = {
       items: [
         { text: 'About AirCode', link: '/' },
         { text: 'Quick Start', link: '/getting-started/' },
-        { text: 'Database Introduction', link: '/getting-started/database' },
-        { text: 'File Storage Introduction', link: '/getting-started/files' },
+        { text: 'FAQs', link: '/about/faq' },
+      ],
+    },
+    {
+      text: 'Tutorials',
+      collapsed: false,
+      items: [
+        { text: 'Connect Siri to ChatGPT', link: '/tutorials/siri-chatgpt' },
       ],
     },
     {
@@ -46,6 +52,7 @@ const sidebar: DefaultTheme.Sidebar = {
       collapsed: false,
       items: [
         { text: 'Database Overview', link: '/guide/database/' },
+        { text: 'Quickstart', link: '/getting-started/database' },
         { text: 'Insert Data', link: '/guide/database/insert' },
         { text: 'Find Data', link: '/guide/database/find' },
         { text: 'Update Data', link: '/guide/database/update' },
@@ -65,6 +72,7 @@ const sidebar: DefaultTheme.Sidebar = {
       collapsed: false,
       items: [
         { text: 'File Storage Overview', link: '/guide/files/' },
+        { text: 'Quickstart', link: '/getting-started/files' },
         { text: 'Upload Files', link: '/guide/files/upload' },
         { text: 'Download Files', link: '/guide/files/download' },
         { text: 'Delete Files', link: '/guide/files/delete' },
@@ -76,7 +84,6 @@ const sidebar: DefaultTheme.Sidebar = {
       collapsed: false,
       items: [
         { text: 'Resource Limits', link: '/about/limits' },
-        { text: 'FAQs', link: '/about/faq' },
       ],
     }
   ],

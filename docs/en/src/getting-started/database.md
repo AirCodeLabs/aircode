@@ -1,4 +1,4 @@
-# Database Introduction {#intro}
+# Database Quickstart {#intro}
 
 AirCode provides a set of out-of-the-box database functions, just use `aircode.db` to access data in cloud functions.
 
@@ -175,15 +175,4 @@ Click **Debug**, then you can see the following results in the **Response** area
 
 ## What's Next? {#next}
 
-Congratulations, you have learned the basic of using a database in AirCode, let's see how to upload a file with one line of code.
-
-<ListBoxContainer>
-  <ListBox
-    title="File Storage Introduction"
-    link="/getting-started/files"
-    description="One-line code to upload files and get a CDN-accelerated access address"
-    single
-  />
-</ListBoxContainer>
-
-Wish to know more about the usage of database? check out [Database Overview](/guide/database/).
+Congratulations, you have learned the basic of using a database in AirCode. Wish to know more about database? Check out [Database Overview](/guide/database/).

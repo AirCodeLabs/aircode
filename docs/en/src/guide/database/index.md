@@ -12,9 +12,16 @@ const item = await MyTable.save({
 
 In addition, the underlying layer of the database is Schema Free. This means that you don't need to construct the schema fields in advance, you only need to store the data directly, and AirCode will automatically identify the schema information.
 
-::: details Haven't used a database in AirCode yet?
-If you have never used a database before, or are unfamiliar with the way of using a database in AirCode, it is recommended to follow [Database Introduction](/getting-started/database) to get started quickly.
-:::
+## Quickstart {#quickstart}
+
+<ListBoxContainer>
+<ListBox
+  title="Database Quickstart"
+  link="/getting-started/database"
+  description="Follow this simple tutorial to learn how to do database operations with AirCode's cloud functions."
+  single
+/>
+</ListBoxContainer>
 
 ## Essential {#essentials}
 

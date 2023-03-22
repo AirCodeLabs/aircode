@@ -10,8 +10,7 @@ const nav: DefaultTheme.NavItem[] = [
         items: [
           { text: 'About AirCode', link: '/' },
           { text: 'Quick Start', link: '/getting-started/' },
-          { text: 'Database Introduction', link: '/getting-started/database' },
-          { text: 'File Storage Introduction', link: '/getting-started/files' },
+          { text: 'FAQs', link: '/about/faq' },
         ],
       },
       {
@@ -26,10 +25,16 @@ const nav: DefaultTheme.NavItem[] = [
         text: 'More',
         items: [
           { text: 'Limits', link: '/about/limits' },
-          { text: 'FAQs', link: '/about/faq' },
         ],
       },
     ],
+  },
+  {
+    text: 'Tutorials',
+    activeMatch: '^/tutorials/',
+    items: [
+      { text: 'Connect Siri to ChatGPT', link: '/tutorials/siri-chatgpt' },
+    ]
   },
   {
     text: 'API Reference',
@@ -45,10 +50,6 @@ const nav: DefaultTheme.NavItem[] = [
     text: 'Help',
     activeMatch: '^/help/',
     link: '/help/',
-  },
-  {
-    text: 'Dashboard',
-    link: 'https://aircode.io/dashboard',
   },
   {
     text: 'Language',

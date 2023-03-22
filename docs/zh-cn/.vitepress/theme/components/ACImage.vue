@@ -5,17 +5,15 @@ import { Zoom } from 'medium-zoom';
 
 const ZOOM_DELAY = 500;
 
-const props = withDefaults(defineProps<{
+const props = defineProps<{
   src: string;
   alt?: string;
-  mode: 'light' | 'dark';
-}>(), {
-  mode: 'light',
-});
+  mode?: 'light' | 'dark';
+}>();
 
 const { isDark } = useData();
 const show = computed(
-  () => isDark.value === (props.mode === 'dark')
+  () => !props.mode || isDark.value === (props.mode === 'dark')
 );
 const fullSrc = computed(() => withBase(props.src));
 const image = ref<HTMLImageElement | null>(null);

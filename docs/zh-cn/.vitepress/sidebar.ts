@@ -16,6 +16,7 @@ const sidebar: DefaultTheme.Sidebar = {
     },
     {
       text: '使用教程',
+      collapsed: false,
       items: [
         { text: '将 Siri 接入 ChatGPT', link: '/tutorials/siri-chatgpt' },
       ],

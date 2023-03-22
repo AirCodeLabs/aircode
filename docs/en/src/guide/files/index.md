@@ -8,9 +8,16 @@ const file = await aircode.files.upload('Hello World', 'hello.txt');
 
 At the same time, all uploaded files can be viewed and managed in the `_files` table in the "Database" area, and they can also be uploaded and managed directly from the browser.
 
-::: details Haven't used file storage in AirCode yet?
-If you have never used AirCode's file storage (i.e. `aircode.files`), it is recommended to follow [File Storage Introduction](/getting-started/files) to get started.
-:::
+## Quickstart {#quicksart}
+
+<ListBoxContainer>
+<ListBox
+  title="File Storage Quickstart"
+  link="/getting-started/files"
+  description="Quickly get started with AirCode's file storage feature, learn how to upload, download, and delete files."
+  single
+/>
+</ListBoxContainer>
 
 ## Essential {#essentials}
 
