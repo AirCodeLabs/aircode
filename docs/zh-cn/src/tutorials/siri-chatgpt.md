@@ -1,14 +1,14 @@
-# 使用 JavaScript 将 Siri 接入 ChatGPT {#intro}
+# 使用 JavaScript 将 Siri 接入 ChatGPT
 
 将 Siri 接入 ChatGPT，直接语音唤醒，并且支持连续对话。
 
 <p align="center"><ACImage src="/_for_demos/errJ-DCavN.1678960179433_4ldns6dksyd.jpeg" width="280" /></p>
 
-## 全部源码 {#source-code}
+## 全部源码
 
 [https://aircode.cool/828668wg5a](https://aircode.cool/828668wg5a)
 
-## 第一步：拷贝项目 {#copy-project}
+## 第一步：拷贝项目
 
 1. 进入[项目源码](https://aircode.cool/828668wg5a)页面，点击右上角「Get a copy」，这会打开 [AirCode](https://aircode.io)，并基于此模板创建一个你自己的项目。如果没登录的话，可能会先跳转到登录页面，推荐使用 GitHub 登录，会快一些。
 
