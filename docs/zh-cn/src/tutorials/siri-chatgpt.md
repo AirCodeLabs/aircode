@@ -72,4 +72,10 @@
 
 <p align="center"><ACImage src="/_for_demos/EOCMiSlTQd.1678973191167_6m66gudre3a.jpeg" width="280" /> <ACImage src="/_for_demos/J_jGyCyi99.1678969998197_e78fjwawq76.jpeg" width="280" /></p>
 
-Enjoy your life with ChatGPT!
+## 问题反馈
+  1. 可以加入我们的[飞书用户群](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=6dem4ab3-d523-4562-9c63-9fb46d565b10)
+  2. 来到我们的 [GitHub 仓库](https://github.com/aircodelabs/aircode)，可以提 issue 或者直接贡献代码
+  3. 欢迎加入我们的 [Discord 讨论区](https://discord.com/invite/XrMVdYdEuY)
+
+## 更多阅读
+- [用 JavaScript 开发飞书 ChatGPT 机器人](/tutorials/feishu-chatgpt)
