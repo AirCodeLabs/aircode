@@ -41,6 +41,12 @@ aside: false
   imageHeight=600
 />
 <ListBox
+  title="企业微信如何接入 ChatGPT"
+  link="https://aircode.cool/54fhemjpk2"
+  imageURL="/_images/chatGPT-index/wecom-demo.jpg"
+  imageHeight=600
+/>
+<ListBox
   title="Siri 一下子变得聪明多了"
   link="https://aircode.cool/828668wg5a"
   imageURL="/_images/chatGPT-index/siri-demo.png"
