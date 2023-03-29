@@ -42,7 +42,7 @@ aside: false
   imageHeight=600
 />
 <ListBox
-  title="ChatGPT 机器人帮我超出代码中的漏洞"
+  title="ChatGPT 机器人帮我找出代码中的漏洞"
   link="https://aircode.cool/q4y1msdim4"
   imageURL="/_images/chatGPT-index/feishu-demo.png"
   imageHeight=600
