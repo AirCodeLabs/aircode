@@ -40,6 +40,12 @@ AirCode 是一个在线开发和部署 Node.js 应用的平台，为全栈工程
   description="将 Siri 接入 ChatGPT，直接语音唤醒，并且支持连续对话"
   open-in-new-tab
 />
+<ListBox
+  title="开发企业微信 ChatGPT 应用"
+  link="https://aircode.cool/54fhemjpk2"
+  description="开发一个企业微信聊天应用，接入 ChatGPT 支持智能聊天"
+  open-in-new-tab
+/>
 </ListBoxContainer>
 
 ## 功能指南 {#features}

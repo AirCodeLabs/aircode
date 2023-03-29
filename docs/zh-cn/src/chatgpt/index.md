@@ -24,6 +24,11 @@ aside: false
   link="https://aircode.cool/q4y1msdim4"
   description="开发一个飞书机器人，不仅可以对话聊天，还可以接入 ChatGPT，变为一个智能助理"
 />
+<ListBox
+  title="开发企业微信 ChatGPT 应用"
+  link="https://aircode.cool/54fhemjpk2"
+  description="开发一个企业微信聊天应用，接入 ChatGPT 支持智能聊天"
+/>
 </ListBoxContainer>
 
 ## 演示效果
