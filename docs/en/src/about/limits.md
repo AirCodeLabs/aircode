@@ -2,27 +2,31 @@
 
 To avoid resource abuse and to ensure platform stability, each account and application in AirCode has a corresponding resource limit. Exceeding the limit may result in failed calls or deployments.
 
-If you have exceeded the limit or expect to need more resources, please send an email to [support@aircode.io](mailto:support@aircode.io?subject=Get%20information%20on%20the%20Paid%20Upgrade%20Plan%20of%20AirCode) for help and the Paid Upgrade Plan.
+If your usage has exceeded the allocated limit, or you anticipate requiring additional resources, please visit the [AirCode Pricing Page](https://aircode.io/pricing) to upgrade with a payment. For any inquiries regarding payments or plans, feel free to contact us at [support@aircode.io](mailto:support@aircode.io).
+
 
 ## Monthly Usage Limits {#monthly-usage}
 
 The sum of monthly usage for **all applications** under each account cannot exceed the following values.
 
-| Item | Free |
-| :---- | :---- |
-| Cloud Function Invocations | 1,000,000 |
-| Cloud Function Execution | 7,200 seconds |
-| Cloud Function Incoming Bandwidth | 1 TB |
-| Cloud Function Outgoing Bandwidth | 10 GB |
-| Database Reads | 2,000,000 |
-| Database Writes/Deletes | 200,000 |
-| File Uploads | 200,000 | 
-| File Upload Total Size | 64 GB |
-| File Downloads | 1,000,000 |
-| File Download Total Size | 256 GB |
-| File Storage Size | 256 GB |
-| Number of Deployments | 600 |
-| Deployment Build Execution | 14,400 seconds |
+| Item | Free | Professional | Team |
+| :---- | :---- | :---- | :---- |
+| Bandwidth | 5 GB | 100 GB | 500 GB |
+| Cloud Function Invocations | 100,000 | Unlimited | Unlimited |
+| Cloud Function Execution | 7,200 seconds | 20 hours | 200 hours |
+| Database Operations | 100,000 | Unlimited | Unlimited |
+| Database Disk | 1 GB | 10 GB | 50 GB |
+| File Operations | 200,000 | Unlimited | Unlimited |
+| File Storage | 2 GB | 50 GB | 300 GB |
+| Number of Deployments | Unlimited | Unlimited | Unlimited |
+| Build Execution | 200 minutes | 600 minutes | 3,000 minutes |
+
+::: details Click to view the details
+1. Bandwidth: Include the data sent or received by your functions, and the traffic for file uploads or downloads
+2. File Operations: Include file uploads, downloads, and deletes
+3. When exceeding the limit, Free and Professional accounts will not be able to continue accessing the service within the current billing cycle. Team accounts can continue usage, with overages billed on a pay-as-you-go basis. For details, please refer to the [AirCode Pricing Page](https://aircode.io/pricing)
+:::
+
 
 ## Cloud Function {#functions}
 
@@ -51,7 +55,7 @@ All limits below are for **single application** levels.
 
 ### Instance Scaling {#functions-instance-scaling}
 
-- The minimum number of instances: **0**. When traffic drops, the instances number will be scaled down to 0. If you would like to keep resident instances, please email [support@aircode.io](mailto:support@aircode.io?subject=Get%20information%20on%20the%20Paid%20Upgrade%20Plan%20of%20AirCode) for help and the Paid Upgrade Plan
+- The minimum number of instances: **0**. When traffic drops, the instances number will be scaled down to 0. If you wish to maintain a persistent instance, you will need to upgrade your account to the Team plan or higher. For more information, please refer to the [AirCode Pricing Page](https://aircode.io/pricing)
 - The maximum number of instances: **100**. That is, it will scale up to 100 instances when traffic rises
 
 ### Cold Start {#functions-cold-start}

@@ -4,7 +4,7 @@
 
 ## Does AirCode need to be paid for? What is the price plan? {#pricing}
 
-We will keep a Free version for a long time. For the usage limit of the Free version, please refer to [Resource Limits - Monthly Usage Limit](/about/limits#monthly-usage). We will also provide a paid version for professional users and business scenarios. If you want to know or consult about the paid version in advance, please email [support@aircode.io](mailto:support@aircode.io?subject=Get%20information%20on%20the%20Paid%20Upgrade%20Plan%20of%20AirCode).
+We are committed to offering a Free plan for long-term trial purposes. To review the usage restrictions associated with the Free plan, kindly refer to the [Resource Limits - Monthly Usage Limit](/about/limits#monthly-usage) section. For professional users and commercial applications, we provide paid Professional and Team plans. For comprehensive details, please explore our [AirCode Pricing Page](https://aircode.io/pricing). Should you have any inquiries concerning payments or plan options, do not hesitate to reach out to us for assistance at [support@aircode.io](mailto:support@aircode.io).
 
 ## How do I find the App ID for my AirCode application? {#app-id}
 

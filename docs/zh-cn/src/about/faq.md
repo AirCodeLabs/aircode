@@ -4,7 +4,7 @@
 
 ## AirCode 需要付费使用吗，价格方案是什么？ {#pricing}
 
-我们会长期保持一个 Free 版本供试用，Free 版的用量限制可参考[资源限制 - 每月用量限制](/about/limits#monthly-usage)。针对专业使用者和商业场景，我们也会在后续提供付费版。若你想提前了解或咨询收费版相关信息，请发送邮件到 [support@aircode.io](mailto:support@aircode.io?subject=Get%20information%20on%20the%20Paid%20Upgrade%20Plan%20of%20AirCode)。
+我们会长期保持一个 Free 版本供试用，Free 版的用量限制可参考[资源限制 - 每月用量限制](/about/limits#monthly-usage)。针对专业使用者和商业场景，我们也提供了付费的 Professional 和 Team 版本，详情可参考[ AirCode 价格页面](https://aircode.io/pricing)。关于付费和套餐有任何问题，请通过 [support@aircode.io](mailto:support@aircode.io) 联系我们获取支持。
 
 ## 如何查看我的 AirCode 应用的 App ID？ {#app-id}
 
