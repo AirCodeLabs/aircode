@@ -21,6 +21,13 @@ Build a ChatGPT bot in just 5 minutes with this comprehensive tutorial. [简体�
   openInNewTab=true
 />
 <ListBox
+  title="Building your first Discord ChatGPT Bot in Minutes"
+  link="https://aircode.cool/zsgdima57c"
+  imageURL="/_images/chatgpt-index/discord-chatgpt-bot.gif"
+  imageHeight=600
+  openInNewTab=true
+/>
+<ListBox
   title="Transform Slack into a ChatGPT-powered Mentor in Minutes"
   link="https://aircode.cool/vkx3j8c9q5"
   imageURL="/_images/chatgpt-index/slack-chatgpt-en.png"
