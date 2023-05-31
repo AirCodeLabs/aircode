@@ -29,4 +29,10 @@
   description="开发一个 Slack 机器人，不仅可以对话聊天，还可以接入 ChatGPT，变为一个智能助理"
   open-in-new-tab
 />
+<ListBox
+  title="开发 Discord ChatGPT 机器人"
+  link="https://aircode.cool/uumhsex1uc"
+  description="快速开发一个 Discord 机器人，并且使用命令行与 ChatGPT 进行交互"
+  open-in-new-tab
+/>
 </ListBoxContainer>

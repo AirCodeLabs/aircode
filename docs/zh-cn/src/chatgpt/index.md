@@ -48,4 +48,11 @@ aside: false
   imageHeight=600
   openInNewTab=true
 />
+<ListBox
+  title="你的第一个 Discord ChatGPT 机器人"
+  link="https://aircode.cool/uumhsex1uc"
+  imageURL="/_images/chatGPT-index/discord-chatgpt-bot.gif"
+  imageHeight=600
+  openInNewTab=true
+/>
 </ListBoxContainer>
