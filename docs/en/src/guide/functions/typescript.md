@@ -39,6 +39,6 @@ If you have an existing JavaScript application, you can also enable TypeScript. 
 
 3. Create your TypeScript function, then debug or deploy. In the console, you can see the logs indicating whether the TypeScript compilation was successful or failed:
 
-<ACImage src="/_images/1687942094699.png" mode="light"/>
+<ACImage src="/_images/1687943224080.png" mode="light"/>
 <ACImage src="/_images/1687943160683.png" mode="dark"/>
 
