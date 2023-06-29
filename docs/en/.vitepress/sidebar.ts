@@ -34,6 +34,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: 'Online Logs', link: '/guide/functions/logs' },
         { text: 'Using NPM', link: '/guide/functions/npm' },
         { text: 'Scheduled Tasks', link: '/guide/functions/scheduled-tasks' },
+        { text: 'Using TypeScript', link: '/guide/functions/typescript' },
         { text: 'Function Runtime', link: '/reference/server/functions-runtime' },
         { text: 'Function API', link: '/reference/server/functions-api' },
         {
@@ -43,8 +44,7 @@ const sidebar: DefaultTheme.Sidebar = {
             { text: 'Send HTTP Request', link: '/guide/functions/http-request' },
             { text: 'POST Parameters', link: '/guide/functions/post-params' },
             { text: 'GET Parameters', link: '/guide/functions/get-params' },
-            { text: 'ES Module', link: '/guide/functions/esm' },
-            { text: 'Typescript', link: '/guide/functions/typescript' },
+            { text: 'ECMAScript Module', link: '/guide/functions/esm' },
           ],
         },
       ],

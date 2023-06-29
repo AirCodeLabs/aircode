@@ -75,6 +75,8 @@ If you have never developed a cloud function before, it is recommended to follow
 - [Send HTTP Request](/guide/functions/http-request)
 - [Retrieve POST Parameters](/guide/functions/post-params)
 - [Retrieve GET Parameters](/guide/functions/get-params)
+- [Using Typescript](/guide/functions/typescript)
+- [ECMAScript Module](/guide/functions/esm)
 
 ## Limits {#limits}
 

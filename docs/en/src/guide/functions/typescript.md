@@ -1,4 +1,4 @@
-# TypeScript Support {#intro}
+# Using TypeScript  {#intro}
 
 AirCode supports TypeScript. You can directly use TypeScript in the AirCode environment.
 
@@ -13,7 +13,7 @@ TypeScript provides convenience in the following scenarios:
 When creating a new application, you can choose to use TypeScript as the default language. Here's how:
 
 1. Click to create a new application.
-2. In the pop-up window, check the box for **Typescript**:
+2. In the pop-up window, check the box for **TypeScript**:
 
 <ACImage src="/_images/1687941402462.png" mode="dark" width="530" />
 <ACImage src="/_images/1687941435342.png" mode="light" width="530" />
@@ -39,6 +39,6 @@ If you have an existing JavaScript application, you can also enable TypeScript. 
 
 3. Create your TypeScript function, then debug or deploy. In the console, you can see the logs indicating whether the TypeScript compilation was successful or failed:
 
-<ACImage src="/_images/1687943224080.png" mode="light"/>
-<ACImage src="/_images/1687943160683.png" mode="dark"/>
+<ACImage src="/_images/1688015952700.png" mode="light"/>
+<ACImage src="/_images/1688015974786.png" mode="dark"/>
 

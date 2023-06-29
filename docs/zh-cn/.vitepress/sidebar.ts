@@ -34,6 +34,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: '线上日志', link: '/guide/functions/logs' },
         { text: '使用 NPM 安装依赖', link: '/guide/functions/npm' },
         { text: '使用定时任务', link: '/guide/functions/scheduled-tasks' },
+        { text: '使用 TypeScript', link: '/guide/functions/typescript'},
         { text: '云函数运行时', link: '/reference/server/functions-runtime' },
         { text: '云函数 API', link: '/reference/server/functions-api' },
         {
@@ -44,7 +45,6 @@ const sidebar: DefaultTheme.Sidebar = {
             { text: '获取 POST 参数', link: '/guide/functions/post-params' },
             { text: '获取 GET 参数', link: '/guide/functions/get-params' },
             { text: 'ES Module', link: '/guide/functions/esm'},
-            { text: 'Typescript', link: '/guide/functions/typescript'},
             // { text: '获取请求头和方法', link: '/guide/functions/request-header-and-method' },
             // { text: '设置返回头和状态码', link: '/guide/functions/response-header-and-code' },
             // { text: '私有函数', link: '/guide/functions/private' },

@@ -73,6 +73,9 @@
 - [发送 HTTP 请求](/guide/functions/http-request)
 - [获取 POST 参数](/guide/functions/post-params)
 - [获取 GET 参数](/guide/functions/get-params)
+- [使用 Typescript](/guide/functions/typescript)
+- [ECMAScript Module](/guide/functions/esm)
+
 
 ## 相关限制 {#limits}
 

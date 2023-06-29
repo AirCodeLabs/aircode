@@ -13,7 +13,7 @@ TypeScript 提供了以下便利:
 在新建应用时，你可以选择使用 TypeScript 作为默认语言。具体操作步骤如下：
 
 1. 点击“创建新应用”。
-2. 在弹出的窗口中，勾选 **Typescript** 选项：
+2. 在弹出的窗口中，勾选 **TypeScript** 选项：
 
 <ACImage src="/_images/1687941402462.png" mode="dark" width="530" />
 <ACImage src="/_images/1687941435342.png" mode="light" width="530" />
@@ -39,5 +39,5 @@ TypeScript 提供了以下便利:
 
 3. 创建你的 TypeScript 函数，并进行调试或部署。在控制台中，你可以查看到 TypeScript 编译成功或失败的日志：
 
-<ACImage src="/_images/1687943224080.png" mode="light"/>
-<ACImage src="/_images/1687943160683.png" mode="dark"/>
+<ACImage src="/_images/1688015952700.png" mode="light"/>
+<ACImage src="/_images/1688015974786.png" mode="dark"/>
