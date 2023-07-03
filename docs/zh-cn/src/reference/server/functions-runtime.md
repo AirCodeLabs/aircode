@@ -68,6 +68,7 @@ process.env.AC_NODE_JS_VERSION
 | AC_NODE_JS_VERSION | 运行时的 Node.js 版本 | `'16.17.0'` |
 | AC_EXECUTION_TIMEOUT | 函数运行超时时间，单位为秒 | `30` |
 | AC_MEMORY_SIZE | 实例内存大小，单位为 MB | `512` |
+| AC_DEPLOYMENT_VERSION | 当前部署的版本号 | `2` |
 
 系统环境变量不支持修改，若希望设置自定义的环境变量，可参考[使用环境变量](/guide/functions/env)。
 
