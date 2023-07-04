@@ -3,6 +3,7 @@ import { onMounted, ref } from 'vue';
 import { EnhanceAppContext } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import mediumZoom, { Zoom } from 'medium-zoom';
+import mixpanel from 'mixpanel-browser';
 import './custom.css';
 import ListBoxContainer from './components/ListBoxContainer.vue';
 import ListBox from './components/ListBox.vue';
@@ -32,6 +33,18 @@ export default {
         app_id: 'lmbk1g3e',
       });
 
+      // Initialize Mixpanel
+      mixpanel.init(
+        'd0cc6ae22c50cef4b54d69f65d827f97',
+        {
+          debug: import.meta.env.DEV,
+          track_pageview: true,
+          persistence: 'localStorage',
+        },
+      );
+      // @ts-ignore
+      mixpanel.register_once({ 'Browser Language': navigator.language || navigator.userLanguage });
+
       try {
         const { status, data } = await axios.get('https://api.aircode.io/api/v1/user', {
           withCredentials: true,
@@ -45,6 +58,17 @@ export default {
           gtag('set', {
             user_id: `${uid}`,
           });
+
+          // Identify a user to Mixpanel
+          mixpanel.identify(`${uid}`);
+          mixpanel.people.set({
+            '$name': name,
+            '$email': email,
+            'Plan': plan,
+          });
+
+          // @ts-ignore
+          mixpanel.people.set_once({ 'Browser Language': navigator.language || navigator.userLanguage });
 
           // Update Intercom with user info
           // @ts-ignore
