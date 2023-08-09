@@ -1,8 +1,0 @@
-{
-  "name": "ChatGPT todolist",
-  "runtime": "node/v16",
-  "timeout": 60,
-  "region": "US",
-  "envs": [],
-  "typescript": false
-}

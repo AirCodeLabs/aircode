@@ -8,7 +8,7 @@ This plugin is a ChatGPT demo for further development. It only supports PostgreS
 
 As the plugin is developed and deployed on [AirCode](https://aircode.io/), all you need to do is click the following button to get a copy and start developing and deploying your own plugin:
 
-[![Deploy with AirCode](https://vercel.com/button)](https://aircode.io/dashboard?share_shareId=4k74zdeqnt&share_name=ChatGPT%20Plugin%20Demo&share_runtime=node%2Fv16)
+[![Deploy with AirCode](https://aircode.io/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=AirCodeLabs&repo=aircode&branch=main&path=examples%2Fchatgpt-plugin&appname=TODOList)
 
 ### Update Domain
 
