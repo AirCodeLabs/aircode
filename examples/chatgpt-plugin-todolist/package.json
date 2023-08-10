@@ -1,12 +1,5 @@
 {
   "dependencies": {
-    "@types/pg": "8.10.2",
-    "mongo": "0.1.0",
-    "mongodb": "5.7.0",
-    "mysql2": "3.5.2",
-    "pg": "8.11.1",
-    "typescript": "5.1.6",
-    "zod": "3.21.4",
     "aircode": "0.6.1"
   }
 }
