@@ -32,6 +32,7 @@
 To get a better understanding of how AirCode can be used in real-world applications, check out our examples:
 
 - [ChatGPT Plugin](https://github.com/AirCodeLabs/aircode/tree/main/examples/chatgpt-plugin)
+- [Sending Email with Resend](https://github.com/AirCodeLabs/aircode/tree/main/examples/resend)
 - [Todo List: A SSR web app](https://github.com/AirCodeLabs/aircode/tree/main/examples/todolist)
 - [Slack ChatGPT Bot](https://github.com/AirCodeLabs/aircode/tree/main/examples/slack-chatgpt-bot/)
 - [Vue.js App](https://github.com/AirCodeLabs/aircode/tree/main/examples/vue3-app/)
