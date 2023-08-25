@@ -36,6 +36,7 @@ Sections:
 ## Data Subscriptions
 
 - [Sending Email with Resend](https://github.com/AirCodeLabs/aircode/tree/main/examples/resend)
+- [Blog subscription and email pushing](https://github.com/AirCodeLabs/aircode/tree/main/examples/blog-subscription-and-pushing)
 
 ## Storages Files and Data API
 
