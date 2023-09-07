@@ -2,7 +2,7 @@
 
 Easily get a copy and launch your app on [AirCode](https://aircode.io/) by clicking the button below.
 
-[![Deploy with AirCode](https://aircode.io/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=wangxiao&repo=hr&branch=test&path=home&appname=Slack-ChatGPT)
+[![Deploy with AirCode](https://aircode.io/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=AirCodeLabs&repo=aircode&branch=main&path=examples%2Fslack-chatgpt-app&appname=Slack-ChatGPT)
 
 ------
 # Build a Slack ChatGPT App with JavaScript, including full source code, free hosting, and step-by-step tutorial.

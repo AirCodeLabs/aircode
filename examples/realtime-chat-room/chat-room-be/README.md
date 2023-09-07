@@ -8,4 +8,4 @@ This is the AirCode demo that create chatrooms with [Pusher Extension](https://g
 
 Easily get a copy and launch your app on [AirCode](https://aircode.io/) by clicking the button below.
 
-[![Deploy with AirCode](https://aircode.io/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=AirCodeLabs&repo=aircode&branch=main&path=examples%2Fchat-room&appname=chat-room)
+[![Deploy with AirCode](https://aircode.io/aircode-deploy-button.svg)](https://aircode.io/dashboard?owner=AirCodeLabs&repo=aircode&branch=main&path=examples%2Frealtime-chat-room&appname=realtime-chat-room)
