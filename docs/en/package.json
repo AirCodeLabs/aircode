@@ -24,7 +24,7 @@
     "directory": "docs/en"
   },
   "dependencies": {
-    "@documate/vue": "^0.0.14",
+    "@documate/vue": "^0.0.15",
     "axios": "^1.4.0",
     "medium-zoom": "^1.0.8",
     "mixpanel-browser": "^2.47.0"
