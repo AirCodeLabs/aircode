@@ -1,0 +1,9 @@
+{
+  "name": "JavaScript Weekly Push",
+  "runtime": "node/v18",
+  "retion": "US",
+  "envs": [
+    "discordWebHook"
+  ],
+  "typescript": false
+}
