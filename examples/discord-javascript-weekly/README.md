@@ -1,3 +1,7 @@
+# Discord JavaScript Weekly Bot
+
+Retrieve the latest article list from [JavaScript Weekly](https://javascriptweekly.com/issues/latest) every week and push it to the WebHook in the Discord group.
+
 ## One-Click Deployment
 
 Easily get a copy and launch your app on [AirCode](https://aircode.io/) by clicking the button below.
