@@ -17,7 +17,7 @@ To avoid resource abuse and to ensure platform stability, each account and appli
 | :---- | :---- | :---- | :---- |
 | Bandwidth | 5 GB | 100 GB | 500 GB |
 | Cloud Function Invocations | 100,000 | Unlimited | Unlimited |
-| Cloud Function Execution | 7,200 seconds | 20 hours | 200 hours |
+| Cloud Function Execution | 7,200 seconds | 100 hours | 200 hours |
 | Database Operations | 100,000 | Unlimited | Unlimited |
 | Database Disk | 1 GB | 10 GB | 50 GB |
 | File Operations | 200,000 | Unlimited | Unlimited |
