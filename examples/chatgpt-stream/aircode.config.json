@@ -2,6 +2,8 @@
   "name": "ChatGPT Stream",
   "runtime": "node/v18",
   "retion": "US",
-  "envs": [],
+  "envs": [
+    "OPENAI_API_KEY"
+  ],
   "typescript": false
 }
