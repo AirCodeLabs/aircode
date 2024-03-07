@@ -38,6 +38,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: 'Function Runtime', link: '/reference/server/functions-runtime' },
         { text: 'Function API', link: '/reference/server/functions-api' },
         { text: 'Static Resources', link: '/reference/server/functions-resource' },
+        { text: 'Publish to GitHub', link: '/guide/functions/publish-to-github' },
         {
           text: 'Advanced',
           items: [

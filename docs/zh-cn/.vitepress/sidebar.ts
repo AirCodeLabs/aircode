@@ -38,6 +38,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: '云函数运行时', link: '/reference/server/functions-runtime' },
         { text: '云函数 API', link: '/reference/server/functions-api' },
         { text: '静态资源请求', link: '/reference/server/functions-resource' },
+        { text: '推送函数至 GitHub', link: '/guide/functions/publish-to-github' },
         {
           text: '高级功能',
           items: [
